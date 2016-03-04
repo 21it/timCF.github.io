@@ -1,6 +1,22 @@
 body {
 	padding-top: 50px;
+	background-color: #BFE2CA;
+}
+nav {
+	background-color: #BFE2CA;
 }
 .transparent {
-	opacity: 0.87;
+	opacity: 0.6;
+}
+.c_light {
+	background-color: #D0E2EC;
+}
+.c_blue {
+	background-color: #A6DAEF;
+}
+.c_yellow {
+	background-color: #FED88F;
+}
+.c_red {
+	background-color: #F4858E;
 }
