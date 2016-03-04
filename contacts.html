@@ -1,0 +1,26 @@
+---
+layout: default
+title: timCF conacts
+data:
+  - ["Skype","tkachuk.i.m."]
+  - ["Telegram","lltimCFll"]
+  - ["Phone","+79164703189"]
+  - ["Viber","+79164703189"]
+  - ["Mail","<a href=\"mailto:llStrainll@gmail.com\">llStrainll@gmail.com</a>"]
+  - ["Facebook","<a href=\"https://www.facebook.com/llstrainll\" target=\"_blank\">www.facebook.com/llstrainll</a>"]
+  - ["Github","<a href=\"https://github.com/timCF\" target=\"_blank\">github.com/timCF</a>"]
+  - ["Linkedin","<a href=\"https://ru.linkedin.com/in/ilya-tkachuk-a59a30aa\" target=\"_blank\">ru.linkedin.com/in/ilya-tkachuk-a59a30aa</a>"]
+---
+<div text-center>
+	<table class="table table table-striped">
+		<tbody>
+			{% for row in page.data %}
+				<tr>
+					{% for el in row %}
+						<td><h4>{{el}}</h4></td>
+					{% endfor %}
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</div>

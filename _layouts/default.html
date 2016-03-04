@@ -4,36 +4,53 @@
 		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="/bower_components/font-awesome/css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-default navbar-fixed-top transparent text-center">
-			<a href="#">
+		<nav class="navbar navbar-default navbar-fixed-top transparent text-center c_main">
+			<a href="/">
 				<button type="button" class="btn btn-primary navbar-btn">
 					<span class="glyphicon glyphicon-home"></span></button></a>
-		</nav>
-
-
-		<div class="text-center"> {{ content }} </div>
-
-
-		<nav class="navbar navbar-default navbar-fixed-bottom transparent text-center">
+			<a href="/person">
+				<button type="button" class="btn btn-primary navbar-btn">
+					<span class="glyphicon glyphicon-user"></span></button></a>
 			<a href="https://github.com/timCF" target="_blank">
-				<button type="button" class="btn btn-warning navbar-btn">
-					<span class="glyphicon glyphicon-random"></span></button></a>
-			<a href="https://yadi.sk/d/wunDCfMjo5SmK" target="_blank">
-				<button type="button" class="btn btn-danger navbar-btn">
-					<span class="glyphicon glyphicon-save"></span></button></a>
-			<a href="mailto:llStrainll@gmail.com" target="_blank">
 				<button type="button" class="btn btn-info navbar-btn">
-					<span class="glyphicon glyphicon-envelope"></span></button></a>
+					<span class="fa fa-github myicon"></span></button></a>
+			<a href="https://yadi.sk/d/wunDCfMjo5SmK" target="_blank">
+				<button type="button" class="btn btn-info navbar-btn">
+					<span class="glyphicon glyphicon-save"></span></button></a>
 			<a href="http://yasobe.ru/na/opensource#form_submit" target="_blank">
 				<button type="button" class="btn btn-success navbar-btn">
 					<span class="glyphicon glyphicon-usd"></span></button></a>
 		</nav>
 
 
+		<div class="text-center"> {{ content }} </div>
+
+
+		<nav class="navbar navbar-default navbar-fixed-bottom transparent text-center c_main">
+			<a href="mailto:llStrainll@gmail.com">
+				<button type="button" class="btn btn-primary navbar-btn">
+					<span class="glyphicon glyphicon-envelope"></span></button></a>
+			<a href="https://ru.linkedin.com/in/ilya-tkachuk-a59a30aa" target="_blank">
+				<button type="button" class="btn btn-primary navbar-btn">
+					<span class="fa fa-fw fa-linkedin"></span></button></a>
+			<a href="https://www.facebook.com/llstrainll" target="_blank">
+				<button type="button" class="btn btn-primary navbar-btn">
+					<span class="fa fa-facebook-official myicon"></span></button></a>
+			<button type="button" class="btn btn-info navbar-btn" data-container="body" data-toggle="popover" data-placement="top" data-content="tkachuk.i.m.">
+				<span class="fa fa-skype myicon"></span></button>
+			<button type="button" class="btn btn-info navbar-btn" data-container="body" data-toggle="popover" data-placement="top" data-content="lltimCFll">
+				<span class="glyphicon glyphicon-send"></span></button>
+			<button type="button" class="btn btn-info navbar-btn" data-container="body" data-toggle="popover" data-placement="top" data-content="+79164703189">
+				<span class="glyphicon glyphicon-earphone"></span></button>
+		</nav>
+
+
 		<script src="/bower_components/jquery/dist/jquery.js"></script>
 		<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+		<script>$(document).ready(function(){$('[data-toggle="popover"]').popover();});</script>
 	</body>
 </html>
