@@ -1,0 +1,20 @@
+{
+  "name": "timCF.github.io",
+  "homepage": "https://github.com/timCF/timCF.github.io",
+  "authors": [
+    "Strain <llStrainll@gmail.com>"
+  ],
+  "description": "my homepage",
+  "main": "",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
