@@ -1,16 +1,6 @@
 body {
 	padding-top: 50px;
 }
-.myicon {
-	font-size: 2em;
-}
 .transparent {
 	opacity: 0.87;
-}
-.movemiddle {
-	-moz-transform: translate(50%, 50%)
-	-ms-transform: translate(50%, 50%)
-	-webkit-transform: translate(50%, 50%)
-	-o-transform: translate(50%, 50%)
-	transform: translate(50%, 50%)
 }
