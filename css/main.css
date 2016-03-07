@@ -18,13 +18,22 @@ a {
 	background-color: #A6DAEF;
 }
 .c_yellow {
-	background-color: #FED88F;
+	background-color: #F0E0A2;
 }
 .c_red {
-	background-color: #F4858E;
+	background-color: #FED1BE;
+}
+.c_purple {
+	background-color: #BFB1D5;
+}
+.c_brown {
+	background-color: #D3B9AA;
 }
 .c_main {
 	background-color: #BFE2CA;
+}
+.c_dirty {
+	background-color: #8BACBD;
 }
 .imgicon {
 	min-width: 30px;

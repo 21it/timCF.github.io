@@ -1,27 +1,31 @@
 ---
 layout: default
 title: projects
-colors: ["c_blue","c_yellow","c_red"]
+colors: ["c_blue","c_dirty","c_yellow","c_red","c_brown","c_purple"]
 technologies:
-  elixir: {icon: "/img/elixir.png", site: "http://elixir-lang.org/"}
-  coffee: {icon: "/img/coffee.png", site: "http://coffeescript.org/"}
-  jade: {icon: "/img/jade.png", site: "http://jade-lang.com/"}
-  sass: {icon: "/img/sass.png", site: "http://sass-lang.com/"}
-  brunch: {icon: "/img/brunch.png", site: "http://brunch.io/"}
+  elixir: {icon: "/img/elixir.png", site: "http://elixir-lang.org/", hint: "elixir / erlang / OTP platform"}
+  coffee: {icon: "/img/coffee.png", site: "http://coffeescript.org/", hint: "coffeescript language"}
+  jade: {icon: "/img/jade.png", site: "http://jade-lang.com/", hint: "jade template engine"}
+  sass: {icon: "/img/sass.png", site: "http://sass-lang.com/", hint: "sass template engine"}
+  brunch: {icon: "/img/brunch.png", site: "http://brunch.io/", hint: "brunch build system"}
+  bash: {icon: "/img/bash.png", site: "https://ru.wikipedia.org/wiki/Bash", hint: "bash shell script"}
+  ci: {icon: "/img/ci.png", site: "https://travis-ci.org/", hint: "continuous integration"}
 projects:
   - {name: "Upup!", technologies: ["elixir","coffee","jade","sass","brunch"], description: "server-side application to auto upload and refresh data in vk.com social network", github: "https://github.com/timCF/upup", server: "http://92.222.106.195:8041/", kind: "app"}
   - {name: "Sqlx", technologies: ["elixir"], description: "simple wrapper around emysql", github: "https://github.com/timCF/sqlx", kind: "lib"}
   - {name: "Imuta", technologies: ["coffee"], description: "crazy small js lib to operate data true functional way", github: "https://github.com/timCF/imuta", kind: "lib"}
   - {name: "Act", technologies: ["coffee"], description: "this small lib provides almost pure erlang-style actors in js", github: "https://github.com/timCF/act", kind: "lib"}
+  - {name: "Cibash", technologies: ["bash","ci"], description: "some bash scripts for CI build and deploy", github: "https://github.com/timCF/cibash", kind: "lib"}
+  - {name: "Wwwest", technologies: ["elixir"], description: "wrapper around cowboy webserver to simplify building json-based REST API", github: "https://github.com/timCF/wwwest", kind: "lib"}
 ---
 <div class="container-fluid">
 	<div class="row">
 		{% for project in page.projects %}
-			{% assign index = forloop.index | modulo:3 %}
+			{% assign index = forloop.index | modulo:6 %}
 			<div class="col-md-6 btn-default {{ page.colors[index] }}" onclick="window.open('{{ project.github }}')">
 				<h3>
 					{% for tech in project.technologies %}
-						<img class="imgicon" src="{{ page.technologies[tech].icon }}" onclick="window.open('{{ page.technologies[tech].site }}')"/>
+						<img class="imgicon" src="{{ page.technologies[tech].icon }}" data-toggle="tooltip" data-placement="top" title="{{ page.technologies[tech].hint }}" onclick="window.open('{{ page.technologies[tech].site }}')"/>
 					{% endfor %}
 					{% if project.kind == "app" %}
 						<img class="imgicon" src="/img/app.png" data-toggle="tooltip" data-placement="top" title="this is application"/>
