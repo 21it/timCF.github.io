@@ -2,6 +2,9 @@ body {
 	padding-top: 50px;
 	background-color: #BFE2CA;
 }
+a {
+	text-decoration: none !important;;
+}
 .transparent {
 	opacity: 0.6;
 }
@@ -22,4 +25,15 @@ body {
 }
 .c_main {
 	background-color: #BFE2CA;
+}
+.imgicon {
+	min-width: 30px;
+	width: 30px;
+	max-width: 30px;
+	min-height: 30px;
+	height: 30px;
+	max-height: 30px;
+	overflow:hidden;
+	cursor: pointer;
+	display: inline-block;
 }

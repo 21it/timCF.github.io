@@ -40,6 +40,8 @@
 			<a href="https://www.facebook.com/llstrainll" target="_blank">
 				<button type="button" class="btn btn-primary navbar-btn">
 					<span class="fa fa-facebook-official myicon"></span></button></a>
+			<a href="https://habrahabr.ru/users/strain/topics/" target="_blank">
+				<button type="button" class="btn btn-primary navbar-btn">H</button></a>
 			<button type="button" class="btn btn-info navbar-btn" data-container="body" data-toggle="popover" data-placement="top" data-content="tkachuk.i.m.">
 				<span class="fa fa-skype myicon"></span></button>
 			<button type="button" class="btn btn-info navbar-btn" data-container="body" data-toggle="popover" data-placement="top" data-content="lltimCFll">
@@ -51,6 +53,9 @@
 
 		<script src="/bower_components/jquery/dist/jquery.js"></script>
 		<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-		<script>$(document).ready(function(){$('[data-toggle="popover"]').popover();});</script>
+		<script>$(document).ready(function(){
+			$('[data-toggle="popover"]').popover();});
+			$('[data-toggle="tooltip"]').tooltip();
+		</script>
 	</body>
 </html>

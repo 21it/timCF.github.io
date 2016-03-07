@@ -1,7 +1,40 @@
 ---
 layout: default
-title: timCF projects
+title: projects
+colors: ["c_blue","c_yellow","c_red"]
+technologies:
+  elixir: {icon: "/img/elixir.png", site: "http://elixir-lang.org/"}
+  coffee: {icon: "/img/coffee.png", site: "http://coffeescript.org/"}
+  jade: {icon: "/img/jade.png", site: "http://jade-lang.com/"}
+  sass: {icon: "/img/sass.png", site: "http://sass-lang.com/"}
+  brunch: {icon: "/img/brunch.png", site: "http://brunch.io/"}
+projects:
+  - {name: "Upup!", technologies: ["elixir","coffee","jade","sass","brunch"], description: "server-side application to auto upload and refresh data in vk.com social network", github: "https://github.com/timCF/upup", server: "http://92.222.106.195:8041/", kind: "app"}
+  - {name: "Sqlx", technologies: ["elixir"], description: "simple wrapper around emysql", github: "https://github.com/timCF/sqlx", kind: "lib"}
+  - {name: "Imuta", technologies: ["coffee"], description: "crazy small js lib to operate data true functional way", github: "https://github.com/timCF/imuta", kind: "lib"}
+  - {name: "Act", technologies: ["coffee"], description: "this small lib provides almost pure erlang-style actors in js", github: "https://github.com/timCF/act", kind: "lib"}
 ---
-<div>
-	<h1>My projects</h1>
+<div class="container-fluid">
+	<div class="row">
+		{% for project in page.projects %}
+			{% assign index = forloop.index | modulo:3 %}
+			<div class="col-md-6 btn-default {{ page.colors[index] }}" onclick="window.open('{{ project.github }}')">
+				<h3>
+					{% for tech in project.technologies %}
+						<img class="imgicon" src="{{ page.technologies[tech].icon }}" onclick="window.open('{{ page.technologies[tech].site }}')"/>
+					{% endfor %}
+					{% if project.kind == "app" %}
+						<img class="imgicon" src="/img/app.png" data-toggle="tooltip" data-placement="top" title="this is application"/>
+					{% else %}
+						<img class="imgicon" src="/img/lib.png" data-toggle="tooltip" data-placement="top" title="this is library"/>
+					{% endif %}
+					{% if project.server %}
+						<img class="imgicon" src="/img/server.png" data-toggle="tooltip" data-placement="top" title="demo" onclick="window.open('{{ project.server }}')"/>
+					{% endif %}
+				</h3>
+				<h3>{{project.name}}</h3>
+				<p>{{project.description}}</p>
+			</div>
+		{% endfor %}
+	</div>
 </div>
