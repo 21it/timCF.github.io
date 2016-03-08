@@ -14,6 +14,8 @@ technologies:
   reactjs: {icon: "/img/react.png", site: "https://facebook.github.io/react/", hint: "react js framework"}
   mysql: {icon: "/img/mysql.png", site: "https://www.mysql.com/", hint: "mysql storage"}
   cassandra: {icon: "/img/cassandra.png", site: "http://cassandra.apache.org/", hint: "nosql cassandra storage"}
+  clojure: {icon: "/img/clojure.png", site: "https://clojure.org/", hint: "clojure language"}
+  scala: {icon: "/img/scala.png", site: "http://www.scala-lang.org/", hint: "scala language"}
 projects:
   - {name: "Sqlx", technologies: ["elixir","mysql"], description: "simple wrapper around emysql", github: "https://github.com/timCF/sqlx", kind: "lib"}
   - {name: "Upup!", technologies: ["elixir","mysql","coffee","jade","sass","brunch","reactjs","phantomjs"], description: "server-side application to auto upload and refresh data in vk.com social network", github: "https://github.com/timCF/upup", server: "http://92.222.106.195:8041/", kind: "app"}
@@ -25,6 +27,14 @@ projects:
   - {name: "Myswt", technologies: ["elixir","coffee","jade","sass","brunch","reactjs"], description: "based on erlang cowboy (server) and reactjs (client) simple template for fast building web-applications with user web interfaces", github: "https://github.com/timCF/myswt", kind: "lib"}
   - {name: "Socex", technologies: ["elixir"], description: "console vk.com chat, multi-acc supported", github: "https://github.com/timCF/socex", kind: "app"}
   - {name: "Cqlx", technologies: ["elixir","cassandra"], description: "simple wrapper around cqerl", github: "https://github.com/timCF/cqlx", kind: "lib"}
+  - {name: "Xmlex", technologies: ["elixir"], description: "simple wrapper around xmerl", github: "https://github.com/timCF/xmlex", kind: "lib"}
+  - {name: "Vkclj", technologies: ["clojure"], description: "wrapper around some vk.com REST API functions", github: "https://github.com/timCF/vkclj", kind: "lib"}
+  - {name: "Konvex", technologies: ["elixir"], description: "abstract conveyor to handle data, shared between threads (workers) using ets storage", github: "https://github.com/timCF/konvex", kind: "lib"}
+  - {name: "Vkan", technologies: ["clojure"], description: "parse some vk.com data to json / csv", github: "https://github.com/timCF/vkan", kind: "app"}
+  - {name: "Unrem", technologies: ["coffee"], description: "stack-based undo/redo manager for js", github: "https://github.com/timCF/unrem", kind: "lib"}
+  - {name: "Scelsx", technologies: ["scala"], description: "just scala-lang hello world : console util for format microsoft excel docs", github: "https://github.com/timCF/scelsx", kind: "app"}
+  - {name: "Other", technologies: [], description: "you can find other open-source projects on my github", github: "https://github.com/timCF?tab=repositories", kind: "lib"}
+  - {name: "Cachex", technologies: ["elixir"], description: "gen cache based on ets", github: "https://github.com/timCF/cachex", kind: "lib"}
 ---
 <div class="container-fluid">
 		{% for project in page.projects %}
