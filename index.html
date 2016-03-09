@@ -47,7 +47,7 @@ projects:
 					{% for project in projects %}
 						{% if project %}
 							{% assign color = forloop.index | minus: 1 | plus: color | modulo:6 %}
-							<div class="col-md-6 btn-default {{ page.colors[color] }}" onclick="window.open('{{ project.github }}')">
+							<div class="col-xs-6 btn-default {{ page.colors[color] }}" onclick="window.open('{{ project.github }}')">
 								<h3>
 									{% for tech in project.technologies %}
 										<img class="imgicon" src="{{ page.technologies[tech].icon }}" data-toggle="tooltip" data-placement="top" title="{{ page.technologies[tech].hint }}" onclick="window.open('{{ page.technologies[tech].site }}')"/>
