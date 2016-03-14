@@ -1,0 +1,13 @@
+elixir: {icon: "/img/elixir.png", site: "http://elixir-lang.org/", hint: "elixir / erlang / OTP platform", level: "expert"}
+coffee: {icon: "/img/coffee.png", site: "http://coffeescript.org/", hint: "coffeescript language", level: "advanced"}
+jade: {icon: "/img/jade.png", site: "http://jade-lang.com/", hint: "jade template engine", level: "advanced"}
+sass: {icon: "/img/sass.png", site: "http://sass-lang.com/", hint: "sass template engine", level: "advanced"}
+brunch: {icon: "/img/brunch.png", site: "http://brunch.io/", hint: "brunch build system", level: "advanced"}
+bash: {icon: "/img/bash.png", site: "https://en.wikipedia.org/wiki/Bash_(Unix_shell)", hint: "bash shell script", level: "advanced"}
+ci: {icon: "/img/ci.png", site: "https://travis-ci.org/", hint: "continuous integration", level: "advanced"}
+phantomjs: {icon: "/img/phantomjs.png", site: "http://phantomjs.org/", hint: "phantomjs headless browser engine", level: "advanced"}
+reactjs: {icon: "/img/react.png", site: "https://facebook.github.io/react/", hint: "react js framework", level: "beginner"}
+mysql: {icon: "/img/mysql.png", site: "https://www.mysql.com/", hint: "mysql storage", level: "advanced"}
+cassandra: {icon: "/img/cassandra.png", site: "http://cassandra.apache.org/", hint: "nosql cassandra storage", level: "advanced"}
+clojure: {icon: "/img/clojure.png", site: "https://clojure.org/", hint: "clojure language", level: "beginner"}
+scala: {icon: "/img/scala.png", site: "http://www.scala-lang.org/", hint: "scala language", level: "beginner"}

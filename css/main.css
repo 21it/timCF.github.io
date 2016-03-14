@@ -33,6 +33,9 @@ a {
 .c_main {
 	background-color: #BFE2CA;
 }
+.c_main_light {
+	background-color: #dcefe2;
+}
 .c_dirty {
 	background-color: #8BACBD;
 }
@@ -44,7 +47,7 @@ a {
 	height: 30px;
 	max-height: 30px;
 	overflow:hidden;
-	cursor: pointer;
+	cursor: help;
 	display: inline-block;
 }
 .row-eq-height {
@@ -52,4 +55,24 @@ a {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
+}
+.fadein {
+	-webkit-transition: background 10s linear;
+	-moz-transition: background 10s linear;
+	-ms-transition: background 10s linear;
+	-o-transition: background 10s linear;
+	transition: background 10s linear;
+}
+.fadefast {
+	-webkit-transition: background 10s linear -5s;
+	-moz-transition: background 10s linear -5s;
+	-ms-transition: background 10s linear -5s;
+	-o-transition: background 10s linear -5s;
+	transition: background 10s linear -5s;
+}
+.pointer {
+	cursor: pointer;
+}
+.bigfont {
+	font-size: 2.5em;
 }
