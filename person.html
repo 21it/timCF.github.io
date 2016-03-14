@@ -18,8 +18,9 @@ title: person
 						<div class="row">
 							{% for property in site.data.personal %}
 								{% assign color = forloop.index | modulo:6 %}
-								<div class="col-md-3 {{ site.data.colors[color] }} fadefast bigfont" name="colorblock">
+								<div class="col-md-2 {{ site.data.colors[color] }} fadefast bigfont" name="colorblock">
 									<i>{{ property[0] }}</i>
+									<br>
 									<b>{{ property[1] }}</b>
 								</div>
 							{% endfor %}
@@ -46,8 +47,9 @@ title: person
 							{% for tech in site.data.technologies %}
 								{% assign color = forloop.index | modulo:6 %}
 								<div class="col-md-2 {{ site.data.colors[color] }} fadefast bigfont pointer" name="colorblock" onclick="window.open('{{ tech[1].site }}')">
-									<i>{{ tech[0] }}</i>
 									<img class="imgicon" src="{{ tech[1].icon }}" data-toggle="tooltip" data-placement="top" title="{{ tech[1].hint }}"/>
+									<i>{{ tech[0] }}</i>
+									<br>
 									<b>{{ tech[1].level }}</b>
 								</div>
 							{% endfor %}
