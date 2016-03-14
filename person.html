@@ -18,16 +18,18 @@ title: person
 						<div class="row">
 							{% for property in site.data.personal %}
 								{% assign color = forloop.index | modulo:6 %}
-								<div class="col-xs-3 {{ site.data.colors[color] }} fadefast bigfont" name="colorblock">
-									<i>{{ property[0] }}</i>
-									<br>
-									<b>{{ property[1] }}</b>
+								<div class="col-xs-3 {{ site.data.colors[color] }} fadefast" name="colorblock">
+									<h4>
+										<i>{{ property[0] }}</i>
+										<br>
+										<b>{{ property[1] }}</b>
+									</h4>
 								</div>
 							{% endfor %}
-							<div class="col-xs-12 fadefast bigfont" name="colorblock">
-								<h2 class="text-justify">
+							<div class="col-xs-12 fadefast" name="colorblock">
+								<h3 class="text-justify">
 									Hello, my name is Ilya. My main skill is functional backend programming. Web programming. Building REST API. I can integrate anything with anything in the web. I have rich experience in development for BEAM/Erlang VM using OTP. I prefer Elixir language, but can write in pure Erlang if needed. I have experience in web development (prefer to use Erlang Cowboy webserver with Bullet websockets), for writing client side prefer CoffeeScript, use mainstream frameworks like Twitter Bootstrap. Used AngularJS, but now prefer to use ReactJS. For building client-side projects, I'm using brunch + jade + coffee + sass + jreact. My coffescript code is functional and declarative as much as possible. Have experience in development for UNIX-like OS. Have experience in MySQL, NoSQL. Use git in development process. Have experience in RabbitMQ. I really love functional programming, it's easy, clear and powerfull.
-								</h2>
+								</h3>
 							</div>
 						</div>
 					</div>
@@ -46,11 +48,13 @@ title: person
 						<div class="row">
 							{% for tech in site.data.technologies %}
 								{% assign color = forloop.index | modulo:6 %}
-								<div class="col-xs-3 {{ site.data.colors[color] }} fadefast bigfont pointer" name="colorblock" onclick="window.open('{{ tech[1].site }}')">
-									<img class="imgicon" src="{{ tech[1].icon }}" data-toggle="tooltip" data-placement="top" title="{{ tech[1].hint }}"/>
-									<i>{{ tech[0] }}</i>
-									<br>
-									<b>{{ tech[1].level }}</b>
+								<div class="col-xs-3 {{ site.data.colors[color] }} fadefast pointer" name="colorblock" onclick="window.open('{{ tech[1].site }}')">
+									<h4>
+										<img class="imgicon" src="{{ tech[1].icon }}" data-toggle="tooltip" data-placement="top" title="{{ tech[1].hint }}"/>
+										<i>{{ tech[0] }}</i>
+										<br>
+										<b>{{ tech[1].level }}</b>
+									</h4>
 								</div>
 							{% endfor %}
 						</div>
