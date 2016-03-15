@@ -1,4 +1,5 @@
 elixir: {icon: "/img/elixir.png", site: "http://elixir-lang.org/", hint: "elixir / erlang / OTP platform", level: "expert"}
+erlang: {icon: "/img/erlang.png", site: "https://www.erlang.org/", hint: "erlang / OTP platform", level: "expert"}
 coffee: {icon: "/img/coffee.png", site: "http://coffeescript.org/", hint: "coffeescript language", level: "advanced"}
 jade: {icon: "/img/jade.png", site: "http://jade-lang.com/", hint: "jade template engine", level: "advanced"}
 sass: {icon: "/img/sass.png", site: "http://sass-lang.com/", hint: "sass template engine", level: "advanced"}
@@ -14,3 +15,4 @@ scala: {icon: "/img/scala.png", site: "http://www.scala-lang.org/", hint: "scala
 webdriver: {icon: "/img/chrome.png", site: "https://www.w3.org/TR/webdriver/", hint: "webdriver protocol", level: "beginner"}
 jekyll: {icon: "/img/jekyll.png", site: "https://jekyllrb.com/", hint: "jekyll static sites template engine", level: "beginner"}
 bootstrap: {icon: "/img/bootstrap.png", site: "http://getbootstrap.com/", hint: "twitter bootstrap framework", level: "advanced"}
+git: {icon: "/img/git.png", site: "https://git-scm.com/", hint: "GIT version control system ", level: "advanced"}
