@@ -11,3 +11,6 @@ mysql: {icon: "/img/mysql.png", site: "https://www.mysql.com/", hint: "mysql sto
 cassandra: {icon: "/img/cassandra.png", site: "http://cassandra.apache.org/", hint: "nosql cassandra storage", level: "advanced"}
 clojure: {icon: "/img/clojure.png", site: "https://clojure.org/", hint: "clojure language", level: "beginner"}
 scala: {icon: "/img/scala.png", site: "http://www.scala-lang.org/", hint: "scala language", level: "beginner"}
+webdriver: {icon: "/img/chrome.png", site: "https://www.w3.org/TR/webdriver/", hint: "webdriver protocol", level: "beginner"}
+jekyll: {icon: "/img/jekyll.png", site: "https://jekyllrb.com/", hint: "jekyll static sites template engine", level: "beginner"}
+bootstrap: {icon: "/img/bootstrap.png", site: "http://getbootstrap.com/", hint: "twitter bootstrap framework", level: "advanced"}

@@ -9,7 +9,7 @@ title: projects
 			{% if is_even == 1 %}
 				<div class="row row-eq-height">
 					{% assign prev_index = forloop.index | minus: 1 %}
-					{% assign projects = "" | split:"|" | push: site.data.projects[forloop.index] | push: site.data.projects[prev_index] %}
+					{% assign projects = "" | split:"|" | push: site.data.projects[prev_index] | push: site.data.projects[forloop.index] %}
 					{% for project in projects %}
 						{% if project %}
 							{% assign color = forloop.index | minus: 1 | plus: color | modulo:6 %}
