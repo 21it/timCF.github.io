@@ -16,6 +16,8 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "~3.3.6",
-    "font-awesome": "~4.5.0"
+    "font-awesome": "~4.5.0",
+    "animate.css": "~3.5.1",
+    "js-yaml": "~3.5.4"
   }
 }
