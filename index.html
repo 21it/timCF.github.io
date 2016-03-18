@@ -2,7 +2,7 @@
 layout: default
 title: projects
 ---
-<div class="container-fluid">
+<div class="container-fluid inithidden" name="baseblock">
 		{% for project in site.data.projects %}
 			{% assign color = forloop.index %}
 			{% assign is_even = forloop.index | modulo:2 %}

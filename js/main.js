@@ -2,6 +2,7 @@
 $(document).ready(function(){
 
 	var main = function(colors, animations){
+		var initdelay = 1500;
 		var recursiveapply = function(mainblock, block, selector, classes){
 			[].forEach.call($(block).find(selector), function(el){
 				$(mainblock).hover(
@@ -29,7 +30,7 @@ $(document).ready(function(){
 						illumination(block,true);
 					};
 				},
-				1000*Math.random());
+				(($(block).attr("name") == "baseblock") ? (initdelay / 3) : initdelay)*Math.random());
 		});
 	};
 
