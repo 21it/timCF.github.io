@@ -70,31 +70,33 @@ a {
 	-o-transition: background 10s linear -5s;
 	transition: background 10s linear -5s;
 }
-.trigger-gpu {
-	-webkit-transform: translateZ(0);
-	-moz-transform: translateZ(0);
-	-ms-transform: translateZ(0);
-	-o-transform: translateZ(0);
-	transform: translateZ(0);
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	-ms-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-perspective: 1000;
-	-moz-perspective: 1000;
-	-ms-perspective: 1000;
-	perspective: 1000;
-	-webkit-transform: translate3d(0, 0, 0);
-	-moz-transform: translate3d(0, 0, 0);
-	-ms-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-}
 .pointer {
 	cursor: pointer;
 }
 .bigfont {
 	font-size: 2em;
 }
+.mediumfont {
+	font-size: 1.17em;
+}
 .inithidden {
 	display:  none !important
+}
+.no-margin-padding {
+	margin: 0;
+	padding: 0;
+}
+.no-margin-padding-bottom {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.floatleft {
+	float:left;
+	width: 33.333333333333333%;
+	margin-right: 5px;
+}
+.floatright {
+	float:right;
+	width: 33.333333333333333%;
+	margin-left: 5px;
 }

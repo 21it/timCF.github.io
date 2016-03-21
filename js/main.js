@@ -20,13 +20,18 @@ $(document).ready(function(){
 		$('[data-toggle="popover"]').popover();
 		$('[data-toggle="tooltip"]').tooltip();
 		$(".btn").hover(function(){$(this).toggleClass("animated jello infinite");});
-		$(".imgicon").hover(function(){$(this).toggleClass("animated rubberBand infinite");});
+		$(".imgicon").hover(function(){
+			if($(this).attr("name") != "blockimg"){
+				$(this).toggleClass("animated rubberBand infinite");
+			};
+		});
 		[].forEach.call($(".inithidden"), function(block){
 			setTimeout(
 				function(){
 					$(block).removeClass("inithidden").addClass("animated "+animations[Math.floor(Math.random()*animations.length)]);
 					if($(block).attr("name") == "colorblock"){
 						recursiveapply(block,block,'*[name*=blocktext]',"animated swing");
+						recursiveapply(block,block,'*[name*=blockimg]',"animated rubberBand infinite");
 						illumination(block,true);
 					};
 				},

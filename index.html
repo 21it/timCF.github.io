@@ -13,7 +13,7 @@ title: projects
 					{% for project in projects %}
 						{% if project %}
 							{% assign color = forloop.index | minus: 1 | plus: color | modulo:6 %}
-							<div class="col-xs-6 {{ site.data.colors[color] }} fadefast pointer trigger-gpu inithidden" onclick="window.open('{{ project.github }}')" name="colorblock">
+							<div class="col-xs-6 {{ site.data.colors[color] }} fadefast pointer inithidden" onclick="window.open('{{ project.github }}')" name="colorblock">
 								<h3>
 									{% for tech in project.technologies %}
 										<img class="imgicon" src="{{ site.data.technologies[tech].icon }}" data-toggle="tooltip" data-placement="top" title="{{ site.data.technologies[tech].hint }}" onclick="window.open('{{ site.data.technologies[tech].site }}')"/>
