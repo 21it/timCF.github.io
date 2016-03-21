@@ -103,17 +103,14 @@ a {
 .widthlimited {
 	max-width: 100%;
 }
-.modal {
-	position: fixed;
-	top: 3%;
-	right: 3%;
-	left: 3%;
-	width: auto;
-	margin: 0;
+/* prevent modal scroll on mobile devices */
+body.modal-open > .wrap {
+	overflow: hidden;
+	height: 100%;
 }
-.modal-body {
-	max-height: 350px;
-	padding: 15px;
-	overflow-y: auto;
-	-webkit-overflow-scrolling: touch;
+.modal-content, .modal-dialog, .modal-body {
+	height: inherit;
+}
+.modal {
+	height: inherit;
 }
