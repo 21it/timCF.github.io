@@ -5,14 +5,13 @@ title: person
 <div>
 	<div class="panel-group inithidden" id="accordion" name="baseblock">
 
-
 		<div class="panel panel-default c_main_light">
-			<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+			<a data-toggle="collapse" data-parent="#accordion" href="#person_summary">
 				<div class="panel-heading">
 				<h4 class="panel-title bigfont"> summary </h4>
 				</div>
 			</a>
-			<div id="collapseOne" class="panel-collapse collapse inithidden" name="baseblock">
+			<div id="person_summary" class="panel-collapse collapse inithidden" name="baseblock">
 				<div class="panel-body">
 					<div class="container-fluid">
 						<div class="row">
@@ -28,8 +27,21 @@ title: person
 							{% endfor %}
 							<div class="col-xs-12 no-margin-padding">
 								<h3 class="no-margin-padding text-justify inithidden">
-									<img src="/img/summary/ava1.jpg" class="floatleft inithidden" data-toggle="modal" data-target="#ava1"/>
-									Hello, my name is Ilya. My main skill is functional backend programming. Web programming. Building REST API. I can integrate anything with anything in the web. I have rich experience in development for BEAM/Erlang VM using OTP. I prefer Elixir language, but can write in pure Erlang if needed. I have experience in web development (prefer to use Erlang Cowboy webserver with Bullet websockets), for writing client side prefer CoffeeScript, use mainstream frameworks like Twitter Bootstrap. Used AngularJS, but now prefer to use ReactJS. For building client-side projects, I'm using brunch + jade + coffee + sass + jreact. My coffescript code is functional and declarative as much as possible. Have experience in development for UNIX-like OS. Have experience in MySQL, NoSQL. Use git in development process. Have experience in RabbitMQ. I really love functional programming, it's easy, clear and powerful.
+									<img src="/img/ava/ava1.jpg" class="floatleft inithidden" data-toggle="modal" data-target="#ava1"/>
+									Hello, my name is Ilya.
+									I have been programming since 2012 (functional style since 2013).
+									My main skill is functional backend programming.
+									Web programming. Building REST API. I can integrate anything with anything in the web.
+									I have rich experience in development for BEAM/Erlang VM using OTP.
+									I prefer Elixir language, but can write in pure Erlang if needed.
+									I have experience in web development (prefer to use Erlang Cowboy webserver with Bullet websockets),
+									for writing client side prefer CoffeeScript, use mainstream frameworks like Twitter Bootstrap.
+									Used AngularJS, but now prefer to use ReactJS.
+									For building client-side projects, I'm using brunch + jade + coffee + sass + jreact.
+									My coffescript code is functional and declarative as much as possible.
+									Have experience in development for UNIX-like OS. Have experience in MySQL, NoSQL.
+									Use git in development process. Have experience in RabbitMQ.
+									I really love functional programming, it's easy, clear and powerful.
 								</h3>
 							</div>
 						</div>
@@ -38,12 +50,12 @@ title: person
 			</div>
 		</div>
 		<div class="panel panel-default c_main_light">
-			<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+			<a data-toggle="collapse" data-parent="#accordion" href="#person_skills">
 				<div class="panel-heading">
 				<h4 class="panel-title bigfont"> skills </h4>
 				</div>
 			</a>
-			<div id="collapseTwo" class="panel-collapse collapse inithidden" name="baseblock">
+			<div id="person_skills" class="panel-collapse collapse inithidden" name="baseblock">
 				<div class="panel-body">
 					<div class="container-fluid">
 						<div class="row">
@@ -64,7 +76,33 @@ title: person
 				</div>
 			</div>
 		</div>
-
+		<div class="panel panel-default c_main_light">
+			<a data-toggle="collapse" data-parent="#accordion" href="#person_music">
+				<div class="panel-heading">
+				<h4 class="panel-title bigfont"> music </h4>
+				</div>
+			</a>
+			<div id="person_music" class="panel-collapse collapse inithidden" name="baseblock">
+				<div class="panel-body">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-12 no-margin-padding">
+								<h3 class="no-margin-padding text-justify inithidden">
+									<img src="/img/ava/ava2.jpg" class="floatleft inithidden" data-toggle="modal" data-target="#ava2"/>
+									I have been playing guitar since 2007.
+									It's only hobbie, but I was played in some professional bands, for example <a href="http://www.last.fm/ru/music/%D0%91%D0%B5%D0%B7%D0%B4%D0%BD%D0%B0+%D0%90%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE+%D0%A3%D0%B3%D0%BD%D0%B5%D1%82%D0%B5%D0%BD%D0%B8%D1%8F" target="_blank">this one</a>.
+									I like different kind of music, but play good in blues and rock styles.
+									Favorite guitar is Gibson SG / Les Paul, aplifier - Carvin V3.
+									Favorite processors and music hardware label is Line 6.
+									Now I'm not playing very much because of my main work.
+									Below you can hear / watch some my songs / concert video / photo.
+								</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 	</div>
 </div>
@@ -72,6 +110,11 @@ title: person
 <!-- Modal -->
 <div class="modal fade transparent" id="ava1">
 	<div class="modal-dialog">
-		<img class="widthlimited" src="/img/summary/ava1.jpg"/>
+		<img class="widthlimited" src="/img/ava/ava1.jpg"/>
+	</div>
+</div>
+<div class="modal fade transparent" id="ava2">
+	<div class="modal-dialog">
+		<img class="widthlimited" src="/img/ava/ava2.jpg"/>
 	</div>
 </div>
