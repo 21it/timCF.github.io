@@ -1,5 +1,7 @@
 - {name: "Upup!", technologies: ["elixir","mysql","coffee","jade","sass","brunch","reactjs","bootstrap","phantomjs"], description: "server-side application to auto upload and refresh data in vk.com social network", github: "https://github.com/timCF/upup", server: "http://92.222.106.195:8041/", kind: "app"}
 - {name: "Sqlx", technologies: ["elixir","mysql"], description: "simple wrapper around emysql", github: "https://github.com/timCF/sqlx", kind: "lib"}
+- {name: "Fps", technologies: ["elixir","coffee","phantomjs"], description: "API gives secure ( ssl support ) proxy servers for some countries", github: "https://github.com/timCF/fps", kind: "app", server: "http://92.222.106.195:9944/?cmd=proxylist"}
+- {name: "Ps-gol", technologies: ["haskell","purescript"], description: "simple cellular automaton", github: "https://github.com/timCF/ps-gol", kind: "app", server: "http://timcf.github.io/ps-gol/"}
 - {name: "Imuta", technologies: ["coffee"], description: "crazy small js lib to operate data true functional way", github: "https://github.com/timCF/imuta", kind: "lib"}
 - {name: "Act", technologies: ["coffee"], description: "this small lib provides almost pure erlang-style actors in js", github: "https://github.com/timCF/act", kind: "lib"}
 - {name: "Cibash", technologies: ["bash","ci"], description: "some bash scripts for CI build and deploy", github: "https://github.com/timCF/cibash", kind: "lib"}

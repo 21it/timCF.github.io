@@ -16,3 +16,5 @@ webdriver: {icon: "/img/chrome.png", site: "https://www.w3.org/TR/webdriver/", h
 jekyll: {icon: "/img/jekyll.png", site: "https://jekyllrb.com/", hint: "jekyll static sites template engine", level: "beginner"}
 bootstrap: {icon: "/img/bootstrap.png", site: "http://getbootstrap.com/", hint: "twitter bootstrap framework", level: "advanced"}
 git: {icon: "/img/git.png", site: "https://git-scm.com/", hint: "GIT version control system ", level: "advanced"}
+haskell: {icon: "/img/haskell.png", site: "https://www.haskell.org/", hint: "haskell language", level: "beginner"}
+purescript: {icon: "/img/purescript.png", site: "http://www.purescript.org/", hint: "purescript language", level: "beginner"}
