@@ -1,13 +1,12 @@
 - {name: "Upup!", technologies: ["elixir","mysql","coffee","jade","sass","brunch","reactjs","bootstrap","phantomjs"], description: "server-side application to auto upload and refresh data in vk.com social network", github: "https://github.com/timCF/upup", server: "http://92.222.106.195:8041/", kind: "app"}
+- {name: "jsfunky", technologies: ["coffee"], description: "crazy small js lib to operate data true functional way", github: "https://github.com/timCF/jsfunky", kind: "lib"}
 - {name: "Sqlx", technologies: ["elixir","mysql"], description: "simple wrapper around emysql", github: "https://github.com/timCF/sqlx", kind: "lib"}
 - {name: "Fps", technologies: ["elixir","coffee","phantomjs"], description: "API gives secure ( ssl support ) proxy servers for some countries", github: "https://github.com/timCF/fps", kind: "app", server: "http://92.222.106.195:9944/?cmd=proxylist"}
+- {name: "Pmaker", technologies: ["elixir"], description: "Peacemaker is very nice and simple wrapper around erlang cowboy webserver with erlang bullet websockets", github: "https://github.com/timCF/pmaker", kind: "lib"}
+- {name: "nextgenjs", technologies: ["coffee","jade","sass","brunch","reactjs","bootstrap"], description: "simple modular template for building web-interfaces", github: "https://github.com/timCF/nextgenjs", kind: "lib"}
+- {name: "Megaclicker", technologies: ["elixir","webdriver"], description: "console clicker for your web applications", github: "https://github.com/timCF/megaclicker", kind: "app"}
 - {name: "Ps-gol", technologies: ["haskell","purescript"], description: "simple cellular automaton", github: "https://github.com/timCF/ps-gol", kind: "app", server: "http://timcf.github.io/ps-gol/"}
-- {name: "Imuta", technologies: ["coffee"], description: "crazy small js lib to operate data true functional way", github: "https://github.com/timCF/imuta", kind: "lib"}
-- {name: "Act", technologies: ["coffee"], description: "this small lib provides almost pure erlang-style actors in js", github: "https://github.com/timCF/act", kind: "lib"}
-- {name: "Cibash", technologies: ["bash","ci"], description: "some bash scripts for CI build and deploy", github: "https://github.com/timCF/cibash", kind: "lib"}
-- {name: "Wwwest", technologies: ["elixir"], description: "wrapper around erlang cowboy webserver to simplify building json-based REST API", github: "https://github.com/timCF/wwwest", kind: "lib"}
-- {name: "WwwestLite", technologies: ["elixir"], description: "simplified version of Wwwest library for building REST API", github: "https://github.com/timCF/wwwest_lite", kind: "lib"}
-- {name: "Myswt", technologies: ["elixir","coffee","jade","sass","brunch","reactjs","bootstrap"], description: "based on erlang cowboy (server) and reactjs (client) simple template for fast building web-applications with user web interfaces", github: "https://github.com/timCF/myswt", kind: "lib"}
+- {name: "Maybe", technologies: ["elixir"], description: "soft data type conversions for elixir", github: "https://github.com/timCF/maybe", kind: "lib"}
 - {name: "Socex", technologies: ["elixir"], description: "console vk.com chat, multi-acc supported", github: "https://github.com/timCF/socex", kind: "app"}
 - {name: "Cqlx", technologies: ["elixir","cassandra"], description: "simple wrapper around cqerl", github: "https://github.com/timCF/cqlx", kind: "lib"}
 - {name: "Xmlex", technologies: ["elixir"], description: "simple wrapper around xmerl", github: "https://github.com/timCF/xmlex", kind: "lib"}
@@ -17,8 +16,11 @@
 - {name: "Unrem", technologies: ["coffee"], description: "stack-based undo/redo manager for js", github: "https://github.com/timCF/unrem", kind: "lib"}
 - {name: "Scelsx", technologies: ["scala"], description: "just scala-lang hello world : console util for format microsoft excel docs", github: "https://github.com/timCF/scelsx", kind: "app"}
 - {name: "Cachex", technologies: ["elixir"], description: "gen cache based on ets", github: "https://github.com/timCF/cachex", kind: "lib"}
-- {name: "Megaclicker", technologies: ["elixir","webdriver"], description: "console clicker for your web applications", github: "https://github.com/timCF/megaclicker", kind: "app"}
 - {name: "Methex", technologies: ["elixir"], description: "simple metrics in elixir", github: "https://github.com/timCF/methex", kind: "lib"}
 - {name: "Exroul", technologies: ["elixir"], description: "macro - based abstract roulette", github: "https://github.com/timCF/exroul", kind: "lib"}
+- {name: "Cibash", technologies: ["bash","ci"], description: "some bash scripts for CI build and deploy", github: "https://github.com/timCF/cibash", kind: "lib"}
+- {name: "Wwwest", technologies: ["elixir"], description: "wrapper around erlang cowboy webserver to simplify building json-based REST API", github: "https://github.com/timCF/wwwest", kind: "lib"}
+- {name: "WwwestLite", technologies: ["elixir"], description: "simplified version of Wwwest library for building REST API", github: "https://github.com/timCF/wwwest_lite", kind: "lib"}
+- {name: "Myswt", technologies: ["elixir","coffee","jade","sass","brunch","reactjs","bootstrap"], description: "based on erlang cowboy (server) and reactjs (client) simple template for fast building web-applications with user web interfaces", github: "https://github.com/timCF/myswt", kind: "lib"}
 - {name: "timCF.github.io", technologies: ["jekyll","bootstrap"], description: "this static website", github: "https://github.com/timCF/timCF.github.io", kind: "app"}
 - {name: "Other", technologies: [], description: "you can find other open-source projects on my github", github: "https://github.com/timCF?tab=repositories", kind: "lib"}

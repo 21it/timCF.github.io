@@ -103,3 +103,8 @@ a {
 .widthlimited {
 	max-width: 100%;
 }
+.modal-open {
+	overflow: hidden !important;
+	position: fixed !important;
+	width: 100% !important;
+}
