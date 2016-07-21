@@ -6,6 +6,7 @@
 - {name: "nextgenjs", technologies: ["coffee","jade","sass","brunch","reactjs","bootstrap"], description: "simple modular template for building web-interfaces", github: "https://github.com/timCF/nextgenjs", kind: "lib"}
 - {name: "Megaclicker", technologies: ["elixir","webdriver"], description: "console clicker for your web applications", github: "https://github.com/timCF/megaclicker", kind: "app"}
 - {name: "Ps-gol", technologies: ["haskell","purescript"], description: "simple cellular automaton", github: "https://github.com/timCF/ps-gol", kind: "app", server: "http://timcf.github.io/ps-gol/"}
+- {name: "Yamlex", technologies: ["elixir"], description: "simple NIF-based (libyaml) parser, decode and encode YAML data", github: "https://github.com/timCF/yamlex", kind: "lib"}
 - {name: "Maybe", technologies: ["elixir"], description: "soft data type conversions for elixir", github: "https://github.com/timCF/maybe", kind: "lib"}
 - {name: "Socex", technologies: ["elixir"], description: "console vk.com chat, multi-acc supported", github: "https://github.com/timCF/socex", kind: "app"}
 - {name: "Cqlx", technologies: ["elixir","cassandra"], description: "simple wrapper around cqerl", github: "https://github.com/timCF/cqlx", kind: "lib"}
