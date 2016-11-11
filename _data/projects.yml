@@ -1,4 +1,5 @@
 - {name: "Upup!", technologies: ["elixir","mysql","coffee","jade","sass","brunch","reactjs","bootstrap","phantomjs"], description: "server-side application to auto upload and refresh data in vk.com social network", github: "https://github.com/timCF/upup", server: "http://92.222.106.195:8041/", kind: "app"}
+- {name: "Studio", technologies: ["elixir","mysql","coffee","jade","sass","brunch","reactjs","bootstrap","phantomjs"], description: "CRM system for rehearsal studio", github: "https://github.com/timCF/studio", server: "https://github.com/timCF/studio", kind: "app"}
 - {name: "jsfunky", technologies: ["coffee"], description: "crazy small js lib to operate data true functional way", github: "https://github.com/timCF/jsfunky", kind: "lib"}
 - {name: "Sqlx", technologies: ["elixir","mysql"], description: "simple wrapper around emysql", github: "https://github.com/timCF/sqlx", kind: "lib"}
 - {name: "Fps", technologies: ["elixir","coffee","phantomjs"], description: "API gives secure ( ssl support ) proxy servers for some countries", github: "https://github.com/timCF/fps", kind: "app", server: "http://92.222.106.195:9944/?cmd=proxylist"}
