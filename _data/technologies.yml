@@ -18,3 +18,5 @@ bootstrap: {icon: "/img/bootstrap.png", site: "http://getbootstrap.com/", hint: 
 git: {icon: "/img/git.png", site: "https://git-scm.com/", hint: "GIT version control system ", level: "advanced"}
 haskell: {icon: "/img/haskell.png", site: "https://www.haskell.org/", hint: "haskell language", level: "beginner"}
 purescript: {icon: "/img/purescript.png", site: "http://www.purescript.org/", hint: "purescript language", level: "beginner"}
+react-native: {icon: "/img/react.png", site: "https://facebook.github.io/react-native/", hint: "React Native framework", level: "advanced"}
+livescript: {icon: "/img/livescript.jpg", site: "http://livescript.net/", hint: "livescript language", level: "expert"}
