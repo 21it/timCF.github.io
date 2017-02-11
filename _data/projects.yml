@@ -5,6 +5,8 @@
 - {name: "Fps", technologies: ["elixir","coffee","phantomjs"], description: "API gives secure ( ssl support ) proxy servers for some countries", github: "https://github.com/timCF/fps", kind: "app", server: "http://ls.cu.cc:9944/?cmd=proxylist"}
 - {name: "Pmaker", technologies: ["elixir"], description: "Peacemaker is very nice and simple wrapper around erlang cowboy webserver with erlang bullet websockets", github: "https://github.com/timCF/pmaker", kind: "lib"}
 - {name: "Upup!", technologies: ["elixir","mysql","coffee","jade","sass","brunch","reactjs","bootstrap","phantomjs"], description: "server-side application to auto upload and refresh data in vk.com social network", github: "https://github.com/timCF/upup", server: "http://ls.cu.cc:8041/", kind: "app"}
+- {name: "Erlng", technologies: ["elixir"], description: "simple cryptographically strong RNG", github: "https://github.com/timCF/erlng", kind: "lib"}
+- {name: "Sysex", technologies: ["elixir"], description: "some runtime utils for BEAM VM", github: "https://github.com/timCF/sysex", kind: "lib"}
 - {name: "nextgenjs", technologies: ["coffee","jade","sass","brunch","reactjs","bootstrap"], description: "simple modular template for building web-interfaces", github: "https://github.com/timCF/nextgenjs", kind: "lib"}
 - {name: "Megaclicker", technologies: ["elixir","webdriver"], description: "console clicker for your web applications", github: "https://github.com/timCF/megaclicker", kind: "app"}
 - {name: "Ps-gol", technologies: ["haskell","purescript"], description: "simple cellular automaton", github: "https://github.com/timCF/ps-gol", kind: "app", server: "http://timcf.github.io/ps-gol/"}
