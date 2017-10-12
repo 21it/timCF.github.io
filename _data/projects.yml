@@ -1,31 +1,28 @@
 - {name: "Studio", technologies: ["elixir","mysql","coffee","jade","sass","brunch","reactjs","bootstrap"], description: "CRM system for rehearsal studio", github: "https://github.com/timCF/studio", kind: "app"}
 - {name: "Studio Mobile", technologies: ["react-native","livescript"], description: "Native mobile client for Studio application ( android / ios )", github: "https://github.com/timCF/studio_mobile", kind: "app"}
+- {name: "Law", technologies: ["elixir"], description: "elixir project skeleton focused on code safety", github: "https://github.com/timCF/law", kind: "lib"}
+- {name: "Meme", technologies: ["elixir"], description: "memoization of function calls", github: "https://github.com/timCF/meme", kind: "lib"}
+- {name: "Maybe", technologies: ["elixir"], description: "soft data type conversions for elixir", github: "https://github.com/timCF/maybe", kind: "lib"}
 - {name: "jsfunky", technologies: ["coffee"], description: "crazy small js lib to operate data true functional way", github: "https://github.com/timCF/jsfunky", kind: "lib"}
 - {name: "Sqlx", technologies: ["elixir","mysql"], description: "simple wrapper around emysql", github: "https://github.com/timCF/sqlx", kind: "lib"}
-- {name: "Fps", technologies: ["elixir","coffee","phantomjs"], description: "API gives secure ( ssl support ) proxy servers for some countries", github: "https://github.com/timCF/fps", kind: "app", server: "http://ls.cu.cc:9944/?cmd=proxylist"}
-- {name: "Pmaker", technologies: ["elixir"], description: "Peacemaker is very nice and simple wrapper around erlang cowboy webserver with erlang bullet websockets", github: "https://github.com/timCF/pmaker", kind: "lib"}
-- {name: "Upup!", technologies: ["elixir","mysql","coffee","jade","sass","brunch","reactjs","bootstrap","phantomjs"], description: "server-side application to auto upload and refresh data in vk.com social network", github: "https://github.com/timCF/upup", server: "http://ls.cu.cc:8041/", kind: "app"}
-- {name: "Erlng", technologies: ["elixir"], description: "simple cryptographically strong RNG", github: "https://github.com/timCF/erlng", kind: "lib"}
-- {name: "Sysex", technologies: ["elixir"], description: "some runtime utils for BEAM VM", github: "https://github.com/timCF/sysex", kind: "lib"}
-- {name: "nextgenjs", technologies: ["coffee","jade","sass","brunch","reactjs","bootstrap"], description: "simple modular template for building web-interfaces", github: "https://github.com/timCF/nextgenjs", kind: "lib"}
-- {name: "Megaclicker", technologies: ["elixir","webdriver"], description: "console clicker for your web applications", github: "https://github.com/timCF/megaclicker", kind: "app"}
-- {name: "Ps-gol", technologies: ["haskell","purescript"], description: "simple cellular automaton", github: "https://github.com/timCF/ps-gol", kind: "app", server: "http://timcf.github.io/ps-gol/"}
-- {name: "Yamlex", technologies: ["elixir"], description: "simple NIF-based (libyaml) parser, decode and encode YAML data", github: "https://github.com/timCF/yamlex", kind: "lib"}
-- {name: "Maybe", technologies: ["elixir"], description: "soft data type conversions for elixir", github: "https://github.com/timCF/maybe", kind: "lib"}
-- {name: "Socex", technologies: ["elixir"], description: "console vk.com chat, multi-acc supported", github: "https://github.com/timCF/socex", kind: "app"}
 - {name: "Cqlx", technologies: ["elixir","cassandra"], description: "simple wrapper around cqerl", github: "https://github.com/timCF/cqlx", kind: "lib"}
+- {name: "Yamlex", technologies: ["elixir"], description: "simple NIF-based (libyaml) parser, decode and encode YAML data", github: "https://github.com/timCF/yamlex", kind: "lib"}
 - {name: "Xmlex", technologies: ["elixir"], description: "simple wrapper around xmerl", github: "https://github.com/timCF/xmlex", kind: "lib"}
-- {name: "Vkclj", technologies: ["clojure"], description: "wrapper around some vk.com REST API functions", github: "https://github.com/timCF/vkclj", kind: "lib"}
-- {name: "Konvex", technologies: ["elixir"], description: "abstract conveyor to handle data, shared between threads (workers) using ets storage", github: "https://github.com/timCF/konvex", kind: "lib"}
-- {name: "Vkan", technologies: ["clojure"], description: "parse some vk.com data to json / csv", github: "https://github.com/timCF/vkan", kind: "app"}
-- {name: "Unrem", technologies: ["coffee"], description: "stack-based undo/redo manager for js", github: "https://github.com/timCF/unrem", kind: "lib"}
-- {name: "Scelsx", technologies: ["scala"], description: "just scala-lang hello world : console util for format microsoft excel docs", github: "https://github.com/timCF/scelsx", kind: "app"}
-- {name: "Cachex", technologies: ["elixir"], description: "gen cache based on ets", github: "https://github.com/timCF/cachex", kind: "lib"}
 - {name: "Methex", technologies: ["elixir"], description: "simple metrics in elixir", github: "https://github.com/timCF/methex", kind: "lib"}
 - {name: "Exroul", technologies: ["elixir"], description: "macro - based abstract roulette", github: "https://github.com/timCF/exroul", kind: "lib"}
+- {name: "Fps", technologies: ["elixir","coffee","phantomjs"], description: "API gives secure ( ssl support ) proxy servers for some countries", github: "https://github.com/timCF/fps", kind: "app", server: "http://5.39.63.60:9944/?cmd=proxylist"}
+- {name: "Pmaker", technologies: ["elixir"], description: "Peacemaker is very nice and simple wrapper around erlang cowboy webserver with erlang bullet websockets", github: "https://github.com/timCF/pmaker", kind: "lib"}
+- {name: "Upup!", technologies: ["elixir","mysql","coffee","jade","sass","brunch","reactjs","bootstrap","phantomjs"], description: "server-side application to auto upload and refresh data in vk.com social network", github: "https://github.com/timCF/upup", server: "http://5.39.63.60:8041/", kind: "app"}
+- {name: "Erlng", technologies: ["elixir"], description: "simple cryptographically strong RNG", github: "https://github.com/timCF/erlng", kind: "lib"}
+- {name: "Sysex", technologies: ["elixir"], description: "some runtime utils for BEAM VM", github: "https://github.com/timCF/sysex", kind: "lib"}
+- {name: "Megaclicker", technologies: ["elixir","webdriver"], description: "console clicker for your web applications", github: "https://github.com/timCF/megaclicker", kind: "app"}
+- {name: "Ps-gol", technologies: ["haskell","purescript"], description: "simple cellular automaton", github: "https://github.com/timCF/ps-gol", kind: "app", server: "http://timcf.github.io/ps-gol/"}
+- {name: "Socex", technologies: ["elixir"], description: "console vk.com chat, multi-acc supported", github: "https://github.com/timCF/socex", kind: "app"}
+- {name: "Pmclj", technologies: ["clojure"], description: "pipe matching for clojure language", github: "https://github.com/timCF/pmclj", kind: "lib"}
+- {name: "Vkclj", technologies: ["clojure"], description: "wrapper around some vk.com REST API functions", github: "https://github.com/timCF/vkclj", kind: "lib"}
+- {name: "Vkan", technologies: ["clojure"], description: "parse some vk.com data to json / csv", github: "https://github.com/timCF/vkan", kind: "app"}
+- {name: "Scelsx", technologies: ["scala"], description: "just scala-lang hello world : console util for format microsoft excel docs", github: "https://github.com/timCF/scelsx", kind: "app"}
 - {name: "Cibash", technologies: ["bash","ci"], description: "some bash scripts for CI build and deploy", github: "https://github.com/timCF/cibash", kind: "lib"}
-- {name: "Wwwest", technologies: ["elixir"], description: "wrapper around erlang cowboy webserver to simplify building json-based REST API", github: "https://github.com/timCF/wwwest", kind: "lib"}
-- {name: "WwwestLite", technologies: ["elixir"], description: "simplified version of Wwwest library for building REST API", github: "https://github.com/timCF/wwwest_lite", kind: "lib"}
-- {name: "Myswt", technologies: ["elixir","coffee","jade","sass","brunch","reactjs","bootstrap"], description: "based on erlang cowboy (server) and reactjs (client) simple template for fast building web-applications with user web interfaces", github: "https://github.com/timCF/myswt", kind: "lib"}
 - {name: "timCF.github.io", technologies: ["jekyll","bootstrap"], description: "this static website", github: "https://github.com/timCF/timCF.github.io", kind: "app"}
+- {name: "Erlang-Universe", technologies: [], description: "slides contains Erlang / OTP / Elixir basics", github: "https://github.com/timCF/erlang-universe", kind: "app", server: "https://timcf.github.io/erlang-universe/index.html#1"}
 - {name: "Other", technologies: [], description: "you can find other open-source projects on my github", github: "https://github.com/timCF?tab=repositories", kind: "lib"}
