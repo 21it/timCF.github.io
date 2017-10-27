@@ -1,9 +1,9 @@
-- {name: "Studio", technologies: ["elixir","mysql","coffee","jade","sass","brunch","reactjs","bootstrap"], description: "CRM system for rehearsal studio", github: "https://github.com/timCF/studio", kind: "app"}
-- {name: "Studio Mobile", technologies: ["react-native","livescript"], description: "Native mobile client for Studio application ( android / ios )", github: "https://github.com/timCF/studio_mobile", kind: "app"}
 - {name: "Law", technologies: ["elixir"], description: "elixir project skeleton focused on code safety", github: "https://github.com/timCF/law", kind: "lib"}
 - {name: "Meme", technologies: ["elixir"], description: "memoization of function calls", github: "https://github.com/timCF/meme", kind: "lib"}
 - {name: "Maybe", technologies: ["elixir"], description: "soft data type conversions for elixir", github: "https://github.com/timCF/maybe", kind: "lib"}
 - {name: "jsfunky", technologies: ["coffee"], description: "crazy small js lib to operate data true functional way", github: "https://github.com/timCF/jsfunky", kind: "lib"}
+- {name: "Studio", technologies: ["elixir","mysql","coffee","jade","sass","brunch","reactjs","bootstrap"], description: "CRM system for rehearsal studio", github: "https://github.com/timCF/studio", kind: "app"}
+- {name: "Studio Mobile", technologies: ["react-native","livescript"], description: "Native mobile client for Studio application ( android / ios )", github: "https://github.com/timCF/studio_mobile", kind: "app"}
 - {name: "Sqlx", technologies: ["elixir","mysql"], description: "simple wrapper around emysql", github: "https://github.com/timCF/sqlx", kind: "lib"}
 - {name: "Cqlx", technologies: ["elixir","cassandra"], description: "simple wrapper around cqerl", github: "https://github.com/timCF/cqlx", kind: "lib"}
 - {name: "Yamlex", technologies: ["elixir"], description: "simple NIF-based (libyaml) parser, decode and encode YAML data", github: "https://github.com/timCF/yamlex", kind: "lib"}
