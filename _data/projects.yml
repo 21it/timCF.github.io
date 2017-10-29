@@ -2,6 +2,8 @@
 - {name: "Meme", technologies: ["elixir"], description: "memoization of function calls", github: "https://github.com/timCF/meme", kind: "lib"}
 - {name: "Maybe", technologies: ["elixir"], description: "soft data type conversions for elixir", github: "https://github.com/timCF/maybe", kind: "lib"}
 - {name: "jsfunky", technologies: ["coffee"], description: "crazy small js lib to operate data true functional way", github: "https://github.com/timCF/jsfunky", kind: "lib"}
+- {name: "Constantine", technologies: ["elixir"], description: "type-safe constants for elixir", github: "https://github.com/timCF/constantine", kind: "lib"}
+- {name: "Elixir-Test", technologies: ["elixir"], description: "test task for elixir developers", github: "https://github.com/heathmont/elixir-test", kind: "lib"}
 - {name: "Studio", technologies: ["elixir","mysql","coffee","jade","sass","brunch","reactjs","bootstrap"], description: "CRM system for rehearsal studio", github: "https://github.com/timCF/studio", kind: "app"}
 - {name: "Studio Mobile", technologies: ["react-native","livescript"], description: "Native mobile client for Studio application ( android / ios )", github: "https://github.com/timCF/studio_mobile", kind: "app"}
 - {name: "Sqlx", technologies: ["elixir","mysql"], description: "simple wrapper around emysql", github: "https://github.com/timCF/sqlx", kind: "lib"}
