@@ -1,0 +1,27 @@
+//
+// Hero unit
+// --------------------------------------------------
+
+
+.hero-unit {
+  padding: (@baseLineHeight - 4) (@baseWidth * 2 - 4);
+  border: 4px double @white;
+  margin-bottom: @baseLineHeight;
+  font-size: @baseFontSize;
+  line-height: @baseLineHeight;
+  color: @heroUnitLeadColor;
+  background-color: @heroUnitBackground;
+  box-shadow: 0 0 0 4px @heroUnitBackground;
+  .border-radius(0);
+  h1 {
+    margin-bottom: @baseLineHeight;
+    font-size: @baseFontSize;
+    line-height: 1;
+    text-decoration: blink;
+    text-align: center;
+    color: @heroUnitHeadingColor;
+  }
+  li {
+    line-height: @baseLineHeight; // Reset since we specify in type.less
+  }
+}

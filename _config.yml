@@ -1,2 +1,4 @@
 name: timCF homepage
 markdown: kramdown
+exclude:
+- "bower_components/bootstra.386/*/docs/*"

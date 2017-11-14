@@ -1,0 +1,59 @@
+//
+// Scaffolding
+// --------------------------------------------------
+
+@font-face {
+  font-family: 'DOS';
+  src: url('fonts/Fixedsys500c.eot');
+  src: local('☺'), url('fonts/Fixedsys500c.woff') format('woff'), url('fonts/Fixedsys500c.ttf') format('truetype'), url('fonts/Fixedsys500c.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+// Body reset
+// -------------------------
+
+body {
+  margin: 0;
+  font-family: @baseFontFamily;
+  font-size: @baseFontSize;
+  line-height: @baseLineHeight;
+  color: @textColor;
+  background-color: @bodyBackground;
+}
+
+
+// Links
+// -------------------------
+
+a {
+  color: @linkColor;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: @linkColorHover;
+  background: @brown;
+}
+
+
+// Images
+// -------------------------
+
+// Rounded corners
+.img-rounded {
+  .border-radius(0px);
+}
+
+// Add polaroid-esque trim
+.img-polaroid {
+  padding: @ts @rhs @bs @lhs;
+  background-color: @white;
+  border: @borderWidth solid @black;
+}
+
+// Perfect circle
+.img-circle {
+}

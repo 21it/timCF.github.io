@@ -1,0 +1,27 @@
+//
+// Breadcrumbs
+// --------------------------------------------------
+
+
+.breadcrumb:before {
+  content: ">>";
+}
+.breadcrumb {
+  padding: 0 @baseLineWidth * 2;
+  margin: 0 0 @baseLineHeight;
+  list-style: none;
+  background-color: @black;
+  .border-radius(@baseBorderRadius);
+  > li {
+    display: inline-block;
+    .ie7-inline-block();
+    text-shadow: 0;
+    > .divider {
+      padding: 0 @baseLineWidth;
+      color: @grayLight;
+    }
+  }
+  > .active {
+    color: @grayLight;
+  }
+}
