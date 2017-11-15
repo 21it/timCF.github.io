@@ -2,12 +2,17 @@
   padding: 5px;
 }
 
+a.btn-default:hover {
+  color: #bbbbbb !important;
+  background: #000000 !important;
+}
+
 body {
   overflow-x: hidden;
 }
 
 a {
-	text-decoration: none !important;;
+	text-decoration: none !important;
 }
 
 .transparent {
