@@ -1,0 +1,12 @@
+{
+  "name": "novacancy.js",
+  "homepage": "https://github.com/chuckyglitch/novacancy.js",
+  "_release": "ec005e0546",
+  "_resolution": {
+    "type": "commit",
+    "commit": "ec005e0546fd1832d2b1bbd76e4a5d1ef3205717"
+  },
+  "_source": "https://github.com/chuckyglitch/novacancy.js.git",
+  "_target": "ec005e0546fd1832d2b1bbd76e4a5d1ef3205717",
+  "_originalSource": "chuckyglitch/novacancy.js"
+}

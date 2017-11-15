@@ -29,7 +29,11 @@
   width: 220px;
   height: 220px;
   box-shadow: 9.5px 9.5px 0 rgb(0,0,0);
-  margin-top: 10%;
+  margin-top: 5%;
+}
+
+.margin-top {
+  margin-top: 20px;
 }
 
 a.btn-default:hover {
@@ -37,13 +41,16 @@ a.btn-default:hover {
   background: #000000 !important;
 }
 
-#app-greetings {
+#app-myname {
   white-space: pre;
+  font-size: 2em;
+  line-height: 1.1;
 }
 
 .typed-cursor {
   opacity: 1;
-  font-weight: 100;
+  font-size: 2em;
+  line-height: 1.1;
   -webkit-animation: blink 0.7s infinite;
   -moz-animation: blink 0.7s infinite;
   -ms-animation: blink 0.7s infinite;
