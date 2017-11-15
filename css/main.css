@@ -12,7 +12,7 @@
 }
 
 .app-nav {
-  padding: 5px;
+  padding: 20px;
 }
 
 .app-main-ava {
@@ -26,10 +26,10 @@
     background-attachment: scroll;
     background-color: transparent;
   */
-  width: 230px;
-  height: 230px;
-  margin-top: 22%;
+  width: 220px;
+  height: 220px;
   box-shadow: 9.5px 9.5px 0 rgb(0,0,0);
+  margin-top: 10%;
 }
 
 a.btn-default:hover {
