@@ -1,45 +1,19 @@
-body {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background-color: #BFE2CA;
-	overflow-x: hidden;
+.app-nav {
+  padding: 5px;
 }
+
+body {
+  overflow-x: hidden;
+}
+
 a {
 	text-decoration: none !important;;
 }
+
 .transparent {
 	opacity: 0.6;
 }
-.myicon {
-	font-size: 1.3em;
-}
-.c_light {
-	background-color: #D0E2EC;
-}
-.c_blue {
-	background-color: #A6DAEF;
-}
-.c_yellow {
-	background-color: #F0E0A2;
-}
-.c_red {
-	background-color: #FED1BE;
-}
-.c_purple {
-	background-color: #BFB1D5;
-}
-.c_brown {
-	background-color: #D3B9AA;
-}
-.c_main {
-	background-color: #BFE2CA;
-}
-.c_main_light {
-	background-color: #dcefe2;
-}
-.c_dirty {
-	background-color: #8BACBD;
-}
+
 .imgicon {
 	min-width: 30px;
 	width: 30px;
