@@ -1,44 +1,21 @@
 <!DOCTYPE html>
 <html>
-	<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>{{ page.title }}</title>
-		<link rel="stylesheet" type="text/css" href="/bower_components/bootstra.386/v3.3.2/dist/css/bootstrap.css"/>
-		<link rel="stylesheet" type="text/css" href="/bower_components/bootstra.386/v3.3.2/dist/css/bootstrap-theme.css"/>
-		<link rel="stylesheet" type="text/css" href="/bower_components/font-awesome/css/font-awesome.css"/>
-		<link rel="stylesheet" type="text/css" href="/bower_components/animate.css/animate.css"/>
-		<link rel="stylesheet" type="text/css" href="/css/main.css"/>
-		<link rel="shortcut icon" href="/favicon.ico"/>
-	</head>
-	<body>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/bower_components/bootstra.386/v3.3.2/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/bower_components/bootstra.386/v3.3.2/dist/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="/bower_components/font-awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" type="text/css" href="/bower_components/animate.css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+  </head>
+  <body>
 
-    <!-- Navbar -->
-    <div class="app-nav">
-
-      <a href="/" class="btn btn-default" role="button">
-        <strong>HOME</strong>
-        <span class="fa fa-home fa-2x"></span>
-      </a>
-      <div class="btn-group" role="group">
-        <div class="btn-group" role="group">
-          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <strong>MENU</strong>
-            <span class="fa fa-bars fa-2x"></span>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a href="#">Dropdown link</a></li>
-            <li><a href="#">Dropdown link</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-
-
-		<div> {{ content }} </div>
+    <div> {{ content }} </div>
 
     <!-- Force 3d acceleration always and forever :) -->
     <div class="app-force-gpu"></div>
@@ -47,9 +24,10 @@
       var _386 = { fastLoad: true };
     </script>
 
-		<script src="/bower_components/jquery/dist/jquery.js"></script>
-		<script src="/bower_components/bootstra.386/v3.3.2/dist/js/bootstrap.js"></script>
-		<script src="/bower_components/js-yaml/dist/js-yaml.js"></script>
-		<script src="/js/main.js"></script>
-	</body>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/bootstra.386/v3.3.2/dist/js/bootstrap.js"></script>
+    <script src="/bower_components/js-yaml/dist/js-yaml.js"></script>
+    <script src="/bower_components/typed.js/lib/typed.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
 </html>

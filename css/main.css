@@ -1,5 +1,35 @@
+.app-header {
+  margin:     0;
+  padding:    0;
+  top:        0;
+  bottom:     0;
+  right:      0;
+  left:       0;
+  width:      100%;
+  height:     100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
 .app-nav {
   padding: 5px;
+}
+
+.app-main-ava {
+  background-image: url(/img/ava/ava3.jpg);
+  background-position: 40% 1%;
+  background-size: 160%;
+  background-repeat: no-repeat;
+  /*
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-attachment: scroll;
+    background-color: transparent;
+  */
+  width: 230px;
+  height: 230px;
+  margin-top: 22%;
+  box-shadow: 9.5px 9.5px 0 rgb(0,0,0);
 }
 
 a.btn-default:hover {
@@ -37,59 +67,18 @@ a {
 	overflow:hidden;
 	display: inline-block;
 }
+
 .row-eq-height {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
 }
-.fadein {
-	-webkit-transition: background 10s linear;
-	-moz-transition: background 10s linear;
-	-ms-transition: background 10s linear;
-	-o-transition: background 10s linear;
-	transition: background 10s linear;
-}
-.fadefast {
-	-webkit-transition: background 10s linear -5s;
-	-moz-transition: background 10s linear -5s;
-	-ms-transition: background 10s linear -5s;
-	-o-transition: background 10s linear -5s;
-	transition: background 10s linear -5s;
-}
+
 .pointer {
 	cursor: pointer;
 }
-.bigfont {
-	font-size: 2em;
-}
-.mediumfont {
-	font-size: 1.17em;
-}
-.inithidden {
-	display:  none !important
-}
-.no-margin-padding {
-	margin: 0;
-	padding: 0;
-}
-.no-margin-padding-bottom {
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-.floatleft {
-	float:left;
-	width: 33.333333333333333%;
-	margin-right: 5px;
-}
-.floatright {
-	float:right;
-	width: 33.333333333333333%;
-	margin-left: 5px;
-}
-.widthlimited {
-	max-width: 100%;
-}
+
 .modal-open {
 	overflow: hidden !important;
 	position: fixed !important;
