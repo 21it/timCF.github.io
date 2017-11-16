@@ -20,6 +20,7 @@
     "js-yaml": "~3.5.4",
     "bootstra.386": "kristopolous/BOOTSTRA.386#efa125854e252191d1ae3f930cb6adeb358531a9",
     "typed.js": "^2.0.6",
-    "novacancy.js": "chuckyglitch/novacancy.js#ec005e0546fd1832d2b1bbd76e4a5d1ef3205717"
+    "novacancy.js": "chuckyglitch/novacancy.js#ec005e0546fd1832d2b1bbd76e4a5d1ef3205717",
+    "tinseltown.js": "Antrikshy/Tinseltown.js#34691ef703008e340aa04c06246f851f181f57f9"
   }
 }
