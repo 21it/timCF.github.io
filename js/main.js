@@ -3,13 +3,18 @@ $(document).ready(function(){
 
   var novacancy = function(){
     var glow_color  = '#ffffff';
-    var glow_blur   = ['0 0 15px #ffffff', '0 0 10px #008000', '0 0 5px #0000ff'];
+    var glow_blur   = ['0 0 15px #ffffff', '0 0 10px #008000', '0 0 5px #0000ff', '0.5vmin 0.5vmin 0 #000000'];
     $('#app-myname').novacancy({
       color:  glow_color,
       glow:   glow_blur,
       off:    2,
       blink:  0,
       autoOn: true,
+    });
+    $('#short-summury').novacancy({
+      color:  glow_color,
+      glow:   glow_blur,
+      autoOn: false,
     });
     $(".typed-cursor").removeAttr("style").removeClass("tnsl-flicker").novacancy({
       color:  glow_color,

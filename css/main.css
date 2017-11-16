@@ -9,6 +9,10 @@
   height:     100vh;
   min-height: 100vh;
   max-height: 100vh;
+  background-image:     url(/img/index-bg.png);
+  background-repeat:    no-repeat;
+  background-size:      cover;
+  background-position:  center;
 }
 
 .app-nav {
@@ -26,8 +30,8 @@
     background-attachment: scroll;
     background-color: transparent;
   */
-  width: 220px;
-  height: 220px;
+  width: 30vh;
+  height: 30vh;
   box-shadow: 9.5px 9.5px 0 rgb(0,0,0);
   margin-top: 5%;
 }
@@ -48,10 +52,26 @@ a.btn-default:hover {
   background: #000000 !important;
 }
 
+.app-myname-margin {
+  margin-top: 9vmin;
+  margin-bottom: 8vmin;
+}
+
 #app-myname {
   white-space: pre;
   font-size: 9vmin;
   line-height: 1.1;
+  color: white;
+  text-shadow: 0.5vmin 0.5vmin 0 rgb(0,0,0);
+}
+
+.short-summury {
+  font-size: 5vmin;
+  line-height: 1.1;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+  text-shadow: 0.5vmin 0.5vmin 0 rgb(0,0,0);
 }
 
 .typed-cursor {
@@ -63,6 +83,7 @@ a.btn-default:hover {
   -ms-animation: blink 0.7s infinite;
   -o-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite;
+  color: white;
 }
 
 @keyframes blink {
@@ -103,6 +124,7 @@ a.btn-default:hover {
 
 body {
   overflow-x: hidden;
+  background-color: black;
 }
 
 .app-force-gpu {
