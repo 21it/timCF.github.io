@@ -11,7 +11,7 @@ $(document).ready(function(){
       blink:  0,
       autoOn: true,
     });
-    $(".typed-cursor").removeAttr("style").novacancy({
+    $(".typed-cursor").removeAttr("style").removeClass("tnsl-flicker").novacancy({
       color:  glow_color,
       glow:   glow_blur,
       autoOn: false,

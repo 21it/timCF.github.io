@@ -32,6 +32,13 @@
   margin-top: 5%;
 }
 
+.animated{
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: none !important;
+  animation-fill-mode: none !important;
+}
+
 .margin-top {
   margin-top: 20px;
 }
