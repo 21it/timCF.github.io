@@ -2,8 +2,8 @@
 $(document).ready(function(){
 
   var novacancy = function(){
-    var glow_color  = '#ffffff'
-    var glow_blur   = ['0 0 15px #ffffff', '0 0 10px #008000', '0 0 5px #0000ff']
+    var glow_color  = '#ffffff';
+    var glow_blur   = ['0 0 15px #ffffff', '0 0 10px #008000', '0 0 5px #0000ff'];
     $('#app-myname').novacancy({
       color:  glow_color,
       glow:   glow_blur,
@@ -18,11 +18,9 @@ $(document).ready(function(){
     });
   };
 
-	var main = function(colors, animations){
-
+	var main = function(){
 		$('[data-toggle="popover"]').popover();
 		$('[data-toggle="tooltip"]').tooltip();
-
     new Typed('#app-myname', {
       strings:    ['Ilja Tkachuk^500\naka timCF^500'],
       showCursor: true,
@@ -35,11 +33,8 @@ $(document).ready(function(){
         setTimeout(novacancy, 500);
       }
     });
-	};
+  };
 
-	$.get('/data/colors.yml').done(function(colors){
-		$.get('/data/animations.yml').done(function(animations){
-			main(jsyaml.load(colors), jsyaml.load(animations));
-		});
-	});
+  setTimeout(main, 1000);
+
 });
