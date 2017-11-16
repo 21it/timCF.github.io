@@ -43,6 +43,10 @@
   animation-fill-mode: none !important;
 }
 
+.hidden {
+  display: none;
+}
+
 .margin-top {
   margin-top: 20px;
 }
@@ -122,8 +126,12 @@ a.btn-default:hover {
   100% {
     opacity: 1; } }
 
-body {
-  overflow-x: hidden;
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* TODO : enable scroll */
+  overflow: hidden;
   background-color: black;
 }
 

@@ -1,6 +1,8 @@
 "use strict";
 $(document).ready(function(){
 
+  var timeout = 500;
+
   var novacancy = function(){
     var glow_color  = '#ffffff';
     var glow_blur   = ['0 0 15px #ffffff', '0 0 10px #008000', '0 0 5px #0000ff', '0.5vmin 0.5vmin 0 #000000'];
@@ -35,11 +37,14 @@ $(document).ready(function(){
         $('#app-myname').addClass("tnsl-flicker");
         $('.typed-cursor').addClass("tnsl-flicker");
         tnslInit(0);
-        setTimeout(novacancy, 500);
+        setTimeout(novacancy, timeout);
       }
     });
   };
 
-  setTimeout(main, 1000);
+  $(window).on("load", function() {
+    $(".app-main-ava").removeClass("hidden");
+    setTimeout(main, timeout * 2);
+  });
 
 });
