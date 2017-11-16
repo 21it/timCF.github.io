@@ -43,13 +43,13 @@ a.btn-default:hover {
 
 #app-myname {
   white-space: pre;
-  font-size: 2em;
+  font-size: 9vmin;
   line-height: 1.1;
 }
 
 .typed-cursor {
   opacity: 1;
-  font-size: 2em;
+  font-size: 9vmin;
   line-height: 1.1;
   -webkit-animation: blink 0.7s infinite;
   -moz-animation: blink 0.7s infinite;
