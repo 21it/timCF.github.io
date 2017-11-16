@@ -32,7 +32,7 @@
   */
   width: 30vh;
   height: 30vh;
-  box-shadow: 9.5px 9.5px 0 rgb(0,0,0);
+  box-shadow: 0 0 0 3px #AAAAAA;
   margin-top: 5%;
 }
 
