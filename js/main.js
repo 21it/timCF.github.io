@@ -1,7 +1,7 @@
 "use strict";
 $(document).ready(function(){
 
-  var timeout = 500;
+  var timeout = 250;
 
   var novacancy = function(){
     var glow_color  = '#ffffff';
@@ -44,7 +44,7 @@ $(document).ready(function(){
 
   $(window).on("load", function() {
     $(".app-main-ava").removeClass("hidden");
-    setTimeout(main, timeout * 2);
+    setTimeout(main, timeout * 4);
   });
 
 });
