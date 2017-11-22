@@ -34,7 +34,7 @@ button {
 }
 
 .app-long-summary {
-  background-color: #008080 /* #008080 #4682B4 #2F4F4F */;
+  background-color: #4682B4 /* #008080 #4682B4 #2F4F4F */;
 }
 
 .app-nav {
@@ -42,7 +42,7 @@ button {
 }
 
 .app-img {
-  box-shadow: 0 0 0 3px #AAAAAA;
+  box-shadow: 0 0 0 2px #bbbbbb;
 }
 
 .app-main-ava {
@@ -78,11 +78,6 @@ button {
 
 .margin-top {
   margin-top: 20px;
-}
-
-a.btn-default:hover {
-  color: #bbbbbb !important;
-  background: #000000 !important;
 }
 
 .app-myname-margin {
@@ -168,25 +163,6 @@ html, body {
   -ms-transform: translate3d(0,0,0);
   -o-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
-}
-
-a {
-	text-decoration: none !important;
-}
-
-.transparent {
-	opacity: 0.6;
-}
-
-.imgicon {
-	min-width: 30px;
-	width: 30px;
-	max-width: 30px;
-	min-height: 30px;
-	height: 30px;
-	max-height: 30px;
-	overflow:hidden;
-	display: inline-block;
 }
 
 .pointer {
