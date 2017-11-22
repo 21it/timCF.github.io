@@ -1,3 +1,16 @@
+.no-margin-top {
+  margin-top: 0;
+}
+
+.app-block {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+button {
+  border-radius: 0;
+}
+
 .app-header {
   margin:     0;
   padding:    0;
@@ -15,8 +28,16 @@
   background-position:  center;
 }
 
+.app-long-summary {
+  background-color: #000084;
+}
+
 .app-nav {
   padding: 20px;
+}
+
+.app-img {
+  box-shadow: 0 0 0 3px #AAAAAA;
 }
 
 .app-main-ava {
@@ -32,8 +53,11 @@
   */
   width: 30vh;
   height: 30vh;
-  box-shadow: 0 0 0 3px #AAAAAA;
   margin-top: 5%;
+}
+
+.img-center {
+  margin: 0 auto;
 }
 
 .animated{
@@ -130,8 +154,6 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  /* TODO : enable scroll */
-  overflow: hidden;
   background-color: black;
 }
 
@@ -160,13 +182,6 @@ a {
 	max-height: 30px;
 	overflow:hidden;
 	display: inline-block;
-}
-
-.row-eq-height {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
 }
 
 .pointer {
