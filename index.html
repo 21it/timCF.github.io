@@ -18,6 +18,7 @@ title: Ilja Tkachuk
         </button>
         <ul class="dropdown-menu">
           <li><a href="#summary">Summary</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li class="divider"></li>
           <li><a href="https://github.com/timCF" target="_blank">Github</a></li>
           <li><a href="https://timcf.github.io/erlang-universe/index.html#1" target="_blank">Erlang-Universe</a></li>
@@ -76,7 +77,28 @@ title: Ilja Tkachuk
       </p>
     </div>
     <div class="col-md-6 app-block">
-      <img src="/img/lfe-logo.png" class="img-responsive img-center"/>
+      <img src="/img/lfe-logo.png" class="img-responsive img-center app-summary-img"/>
     </div>
+  </div>
+</div>
+
+<!-- Skills -->
+<div class="container-fluid app-skills" id="skills">
+  <div class="row jumbotron app-block">
+    <div class="col-xs-12">
+      <div class="page-header">
+        <h1>Skills</h1>
+      </div>
+    </div>
+    {% for tech in site.data.technologies %}
+      <div class="col-sm-6">
+        <img src="{{ tech[1].icon }}" class="app-icon">
+        <span>{{ tech[1].name }}</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="background-color: {{ tech[1].color }}; width: {{ tech[1].skill }}%;">
+          </div>
+        </div>
+      </div>
+    {% endfor %}
   </div>
 </div>

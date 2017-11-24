@@ -1,22 +1,108 @@
-elixir: {icon: "/img/elixir.png", site: "http://elixir-lang.org/", hint: "elixir / erlang / OTP platform", level: "expert"}
-erlang: {icon: "/img/erlang.png", site: "https://www.erlang.org/", hint: "erlang / OTP platform", level: "expert"}
-coffee: {icon: "/img/coffee.png", site: "http://coffeescript.org/", hint: "coffeescript language", level: "advanced"}
-jade: {icon: "/img/jade.png", site: "http://jade-lang.com/", hint: "jade template engine", level: "advanced"}
-sass: {icon: "/img/sass.png", site: "http://sass-lang.com/", hint: "sass template engine", level: "advanced"}
-brunch: {icon: "/img/brunch.png", site: "http://brunch.io/", hint: "brunch build system", level: "advanced"}
-bash: {icon: "/img/bash.png", site: "https://en.wikipedia.org/wiki/Bash_(Unix_shell)", hint: "bash shell script", level: "advanced"}
-ci: {icon: "/img/ci.png", site: "https://travis-ci.org/", hint: "continuous integration", level: "advanced"}
-phantomjs: {icon: "/img/phantomjs.png", site: "http://phantomjs.org/", hint: "phantomjs headless browser engine", level: "advanced"}
-reactjs: {icon: "/img/react.png", site: "https://facebook.github.io/react/", hint: "react js framework", level: "beginner"}
-mysql: {icon: "/img/mysql.png", site: "https://www.mysql.com/", hint: "mysql storage", level: "advanced"}
-cassandra: {icon: "/img/cassandra.png", site: "http://cassandra.apache.org/", hint: "nosql cassandra storage", level: "advanced"}
-clojure: {icon: "/img/clojure.png", site: "https://clojure.org/", hint: "clojure language", level: "beginner"}
-scala: {icon: "/img/scala.png", site: "http://www.scala-lang.org/", hint: "scala language", level: "beginner"}
-webdriver: {icon: "/img/chrome.png", site: "https://www.w3.org/TR/webdriver/", hint: "webdriver protocol", level: "beginner"}
-jekyll: {icon: "/img/jekyll.png", site: "https://jekyllrb.com/", hint: "jekyll static sites template engine", level: "beginner"}
-bootstrap: {icon: "/img/bootstrap.png", site: "http://getbootstrap.com/", hint: "twitter bootstrap framework", level: "advanced"}
-git: {icon: "/img/git.png", site: "https://git-scm.com/", hint: "GIT version control system ", level: "advanced"}
-haskell: {icon: "/img/haskell.png", site: "https://www.haskell.org/", hint: "haskell language", level: "beginner"}
-purescript: {icon: "/img/purescript.png", site: "http://www.purescript.org/", hint: "purescript language", level: "beginner"}
-react-native: {icon: "/img/react.png", site: "https://facebook.github.io/react-native/", hint: "React Native framework", level: "advanced"}
-livescript: {icon: "/img/livescript.jpg", site: "http://livescript.net/", hint: "livescript language", level: "expert"}
+beam:
+  icon:   "/img/erlang.png"
+  site:   "https://www.erlang.org/"
+  name:   "BEAM/Erlang VM"
+  skill:  100
+  color:  "#B83998"
+elixir:
+  icon:   "/img/elixir.png"
+  site:   "http://elixir-lang.org/"
+  name:   "Elixir"
+  skill:  100
+  color:  "#6e4a7e"
+erlang:
+  icon:   "/img/erlang.png"
+  site:   "https://www.erlang.org/"
+  name:   "Erlang"
+  skill:  90
+  color:  "#B83998"
+bash:
+  icon:   "/img/bash.png"
+  site:   "https://en.wikipedia.org/wiki/Bash_(Unix_shell)"
+  name:   "Bash"
+  skill:  88
+  color:  "#89e051"
+git:
+  icon:   "/img/git.png"
+  site:   "https://git-scm.com/"
+  name:   "GIT"
+  skill:  85
+  color:  "#f14e32"
+sql:
+  icon:   "/img/mysql.png"
+  site:   "https://www.mysql.com/"
+  name:   "SQL"
+  skill:  87
+  color:  "#dad8d8"
+nosql:
+  icon:   "/img/cassandra.png"
+  site:   "http://cassandra.apache.org/"
+  name:   "noSQL"
+  skill:  40
+  color:  "#dad8d8"
+haskell:
+  icon:   "/img/haskell.png"
+  site:   "https://www.haskell.org/"
+  name:   "Haskell (ML family)"
+  skill:  40
+  color:  "#5e5086"
+scala:
+  icon:   "/img/scala.png"
+  site:   "http://www.scala-lang.org/"
+  name:   "Scala"
+  skill:  20
+  color:  "#c22d40"
+clojure:
+  icon:   "/img/clojure.png"
+  site:   "https://clojure.org/"
+  name:   "Clojure"
+  skill:  35
+  color:  "#db5855"
+livescript:
+  icon:   "/img/livescript.jpg"
+  site:   "http://livescript.net/"
+  name:   "Livescript"
+  skill:  85
+  color:  "#499886"
+bootstrap:
+  icon:   "/img/bootstrap.png"
+  site:   "http://getbootstrap.com/"
+  name:   "Twitter Bootstrap"
+  skill:  70
+  color:  "#7952b3"
+ci:
+  icon:   "/img/ci.png"
+  site:   "https://travis-ci.org/"
+  name:   "CI"
+  skill:  60
+  color:  "#dad8d8"
+phantomjs:
+  icon:   "/img/phantomjs.png"
+  site:   "http://phantomjs.org/"
+  name:   "Phantomjs Engine"
+  skill:  80
+  color:  "#2ecbd6"
+brunch:
+  icon:   "/img/brunch-acid.png"
+  site:   "http://brunch.io/"
+  name:   "Brunch builder"
+  skill:  65
+  color:  "#008000"
+reactjs:
+  icon:   "/img/react.png"
+  site:   "https://facebook.github.io/react/"
+  name:   "React"
+  skill:  75
+  color:  "#61dafb"
+react-native:
+  icon:   "/img/react.png"
+  site:   "https://facebook.github.io/react-native/"
+  name:   "React-Native"
+  skill:  75
+  color:  "#05A5D1"
+jekyll:
+  icon:   "/img/jekyll.png"
+  site:   "https://jekyllrb.com/"
+  name:   "Jekyll"
+  skill:  50
+  color:  "#9e2812"
