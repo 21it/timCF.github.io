@@ -1,3 +1,7 @@
+.white {
+  color: white;
+}
+
 .app-icon {
   min-width: 32px;
   width: 32px;
@@ -28,6 +32,10 @@
   margin-top: 0;
 }
 
+.no-margin {
+  margin: 0;
+}
+
 .app-block {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -56,6 +64,20 @@ button {
 
 .app-skills {
   background-color: #4682B4;
+}
+
+.app-contacts {
+  color: cyan;
+  text-shadow: 1px 1px 0 black;
+  background-image:     url(/img/citadel.jpg);
+  background-repeat:    no-repeat;
+  background-size:      cover;
+  background-position:  bottom;
+}
+
+.app-contacts .page-header {
+  border-bottom: 2px solid #D3D3D3;
+  margin-top: 0;
 }
 
 .app-long-summary {

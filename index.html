@@ -19,6 +19,7 @@ title: Ilja Tkachuk
         <ul class="dropdown-menu">
           <li><a href="#summary">Summary</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#contacts">Contacts</a></li>
           <li class="divider"></li>
           <li><a href="https://github.com/timCF" target="_blank">Github</a></li>
           <li><a href="https://timcf.github.io/erlang-universe/index.html#1" target="_blank">Erlang-Universe</a></li>
@@ -97,6 +98,29 @@ title: Ilja Tkachuk
         <div class="progress">
           <div class="progress-bar" role="progressbar" style="background-color: {{ tech[1].color }}; width: {{ tech[1].skill }}%;">
           </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Contacts -->
+<div class="container-fluid app-contacts" id="contacts">
+  <div class="app-block">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="page-header">
+          <h1 class="no-margin">Contacts</h1>
+        </div>
+      </div>
+    </div>
+    {% for contact in site.data.contacts %}
+      <div class="row margin-top">
+        <div class="col-sm-2 col-xs-12">
+          {{ contact.title }}
+        </div>
+        <div class="col-sm-10 col-xs-12">
+          {{ contact.value }}
         </div>
       </div>
     {% endfor %}
