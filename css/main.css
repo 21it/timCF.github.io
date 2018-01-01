@@ -90,6 +90,7 @@ button {
 
 .app-nav {
   padding: 20px;
+  margin-bottom: 40px;
 }
 
 .app-img {
@@ -228,4 +229,9 @@ html, body {
 
 .novacancy.off {
   opacity: 0.5 !important;
+}
+
+.dropdown {
+  z-index: 1000;
+  position: absolute;
 }
