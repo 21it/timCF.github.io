@@ -1,0 +1,53 @@
+-
+  icon:   "/img/C.png"
+  title:  "Imperative languages"
+  note:   |
+    I understand the great importance of imperative languages.
+    I just do not like them.
+    Mutable data and imperative constructions make high-level code more
+    confusing and unobvious (especially in case of multithreading).
+-
+  icon:   "/img/perl.png"
+  title:  "Weak dynamic type system"
+  note:   |
+    I'm absolutely against the weak dynamic type system in programming languages.
+    Yes, you can say that such languages accelerate the development process,
+    but the quality of the code falls disproportionately.
+    How many times have you seen stupid runtime errors like "undefined is not a function"?
+    Or you need to remember how implicit type conversions work in JavaScript?
+-
+  icon:   "/img/nodejs.png"
+  title:  "JavaScript and NodeJS"
+  note:   |
+    JavaScript is really a bad language.
+    Type system is weak and dynamic.
+    Runtime system is single-threaded (concurrency in JS is not real multithreading).
+    JS does not have a unified system of modules.
+    JS does not have a unified structure of project.
+    JS does not have a "normal" classes and OOP.
+    JS does not have any types inference.
+    JS does not have unified technology for working with asynchronous code.
+    JS has absolutely mad NPM with very low-quality packages.
+-
+  icon:   "/img/microsoft.png"
+  title:  "Microsoft and Windows"
+  note:   |
+    Most GNU utilities do not work properly in Windows.
+    Where is my bash?
+    There is no normal package manager.
+    Where is my apt-get / homebrew?
+    I can not work properly in Windows.
+-
+  icon:   "/img/scrum.png"
+  title:  "Scrum and bureaucracy"
+  note:   |
+    I think it's possible for some people that the scrum is working pretty well.
+    But not for me.
+    Scrum process and useless regular meetings make boredom and greatly slow me down.
+    It seems that the scrum is working well when everything is going according to plan
+    and the team is working with high rank professionals, but in reality this never happens.
+-
+  icon:   "/img/cactus.png"
+  title:  "Hot countries"
+  note:   |
+    I just do not like the hot climate, it's physically hard for me.

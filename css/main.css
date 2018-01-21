@@ -24,6 +24,11 @@
   margin: 0 auto;
 }
 
+.small-vertical-margin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .no-padding {
   padding: 0;
 }
@@ -63,8 +68,18 @@ button {
 }
 
 .app-skills {
-  /*background-color: #4682B4;*/
+  background-color: #4682B4;
+  /*
   background-image:     url(/img/mac-1.jpg);
+  background-repeat:    no-repeat;
+  background-size:      cover;
+  background-position:  center;
+  */
+}
+
+.app-preferences {
+  /*background-color: #4682B4;*/
+  background-image:     url(/img/collision.jpg);
   background-repeat:    no-repeat;
   background-size:      cover;
   background-position:  center;

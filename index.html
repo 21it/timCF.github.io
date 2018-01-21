@@ -7,10 +7,6 @@ title: Ilja Tkachuk
   <div class="row">
     <!-- Navbar -->
     <div class="app-nav">
-      <!--a href="/" class="btn btn-default tnsl-flicker" role="button">
-        <strong>HOME</strong>
-        <span class="fa fa-home fa-2x"></span>
-      </a-->
       <div class="dropdown tnsl-flickerQuick">
         <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
           <strong>MENU</strong>
@@ -18,13 +14,12 @@ title: Ilja Tkachuk
         </button>
         <ul class="dropdown-menu">
           <li><a href="#summary">Summary</a></li>
+          <li><a href="#preferences">Preferences</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#contacts">Contacts</a></li>
           <li class="divider"></li>
           <li><a href="https://github.com/timCF" target="_blank">Github</a></li>
           <li><a href="https://timcf.github.io/erlang-universe/index.html#1" target="_blank">Erlang-Universe</a></li>
-          <li class="divider"></li>
-          <li><a href="mailto:tim4CF@gmail.com">Email</a></li>
           <li class="divider"></li>
           <li><a href="https://ru.linkedin.com/in/ilya-tkachuk-a59a30aa" target="_blank">Linkedin</a></li>
           <li><a href="https://www.facebook.com/llstrainll" target="_blank">Facebook</a></li>
@@ -83,10 +78,56 @@ title: Ilja Tkachuk
   </div>
 </div>
 
+<!-- Preferences -->
+<div class="container-fluid app-preferences" id="preferences">
+  <div class="row jumbotron app-block">
+    <div class="col-sm-12">
+      <div class="page-header">
+        <h1>Preferences</h1>
+      </div>
+    </div>
+
+    <div class="col-sm-6">
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-success text-center">
+          <h1>Things I do like</h1>
+        </li>
+        {% for pref in site.data.preferences_positive %}
+          <li class="list-group-item">
+            <img src="{{ pref.icon }}" class="app-icon">
+            <button class="btn btn-success">{{ pref.title }}</button>
+          </li>
+          <li class="list-group-item small-vertical-margin">
+            <span>{{ pref.note }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="col-sm-6">
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-danger text-center">
+          <h1>Things I do not like</h1>
+        </li>
+        {% for pref in site.data.preferences_negative %}
+          <li class="list-group-item">
+            <img src="{{ pref.icon }}" class="app-icon">
+            <button class="btn btn-danger">{{ pref.title }}</button>
+          </li>
+          <li class="list-group-item small-vertical-margin">
+            <span>{{ pref.note }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+</div>
+
 <!-- Skills -->
 <div class="container-fluid app-skills" id="skills">
   <div class="row jumbotron app-block">
-    <div class="col-xs-12">
+    <div class="col-sm-12">
       <div class="page-header">
         <h1>Skills</h1>
       </div>
