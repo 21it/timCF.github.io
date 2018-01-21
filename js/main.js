@@ -35,6 +35,7 @@ $(document).ready(function(){
       typeSpeed:  30,
       onComplete: function(){
         $('#app-myname').addClass("tnsl-flicker");
+        $('.app-main-ava').addClass("app-img");
         $('.typed-cursor').addClass("tnsl-flicker");
         tnslInit(0);
         setTimeout(novacancy, timeout);
