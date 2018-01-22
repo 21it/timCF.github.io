@@ -80,45 +80,48 @@ title: Ilja Tkachuk
 
 <!-- Preferences -->
 <div class="container-fluid app-preferences" id="preferences">
-  <div class="row jumbotron app-block">
-    <div class="col-sm-12">
-      <div class="page-header">
-        <h1>Preferences</h1>
+  <div class="app-block">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="page-header">
+          <h1 class="no-margin white">Preferences</h1>
+        </div>
       </div>
     </div>
 
-    <div class="col-sm-6">
-      <ul class="list-group">
-        <li class="list-group-item list-group-item-success text-center">
-          <h1>Things I do like</h1>
-        </li>
-        {% for pref in site.data.preferences_positive %}
-          <li class="list-group-item">
-            <img src="{{ pref.icon }}" class="app-icon">
-            <button class="btn btn-success">{{ pref.title }}</button>
+    <div class="row margin-top">
+      <div class="col-sm-6 margin-bottom">
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-success text-center">
+            <h1>Things I do like</h1>
           </li>
-          <li class="list-group-item small-vertical-margin">
-            <span>{{ pref.note }}</span>
+          {% for pref in site.data.preferences_positive %}
+            <li class="list-group-item inline-wrapper">
+              <img src="{{ pref.icon }}" class="app-icon inline">
+              <button class="btn btn-success inline">{{ pref.title }}</button>
+            </li>
+            <li class="list-group-item small-vertical-margin">
+              <span>{{ pref.note }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-sm-6 margin-bottom">
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-danger text-center">
+            <h1>Things I do not like</h1>
           </li>
-        {% endfor %}
-      </ul>
-    </div>
-
-    <div class="col-sm-6">
-      <ul class="list-group">
-        <li class="list-group-item list-group-item-danger text-center">
-          <h1>Things I do not like</h1>
-        </li>
-        {% for pref in site.data.preferences_negative %}
-          <li class="list-group-item">
-            <img src="{{ pref.icon }}" class="app-icon">
-            <button class="btn btn-danger">{{ pref.title }}</button>
-          </li>
-          <li class="list-group-item small-vertical-margin">
-            <span>{{ pref.note }}</span>
-          </li>
-        {% endfor %}
-      </ul>
+          {% for pref in site.data.preferences_negative %}
+            <li class="list-group-item inline-wrapper">
+              <img src="{{ pref.icon }}" class="app-icon inline">
+              <button class="btn btn-danger inline">{{ pref.title }}</button>
+            </li>
+            <li class="list-group-item small-vertical-margin">
+              <span>{{ pref.note }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
 
   </div>

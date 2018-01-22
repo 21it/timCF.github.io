@@ -1,6 +1,6 @@
 -
   icon:   "/img/C.png"
-  title:  "Imperative languages"
+  title:  "Imperative code"
   note:   |
     I understand the great importance of imperative languages.
     I just do not like them.
@@ -8,7 +8,7 @@
     confusing and unobvious (especially in case of multithreading).
 -
   icon:   "/img/perl.png"
-  title:  "Weak dynamic type system"
+  title:  "Weak dynamic types"
   note:   |
     I'm absolutely against the weak dynamic type system in programming languages.
     Yes, you can say that such languages accelerate the development process,
@@ -17,7 +17,7 @@
     Or you need to remember how implicit type conversions work in JavaScript?
 -
   icon:   "/img/nodejs.png"
-  title:  "JavaScript and NodeJS"
+  title:  "JavaScript & NodeJS"
   note:   |
     JavaScript is really a bad language.
     Type system is weak and dynamic.
@@ -30,7 +30,7 @@
     JS has absolutely mad NPM with very low-quality packages.
 -
   icon:   "/img/microsoft.png"
-  title:  "Microsoft and Windows"
+  title:  "Microsoft Windows"
   note:   |
     Most GNU utilities do not work properly in Windows.
     Where is my bash?
@@ -39,7 +39,7 @@
     I can not work properly in Windows.
 -
   icon:   "/img/scrum.png"
-  title:  "Scrum and bureaucracy"
+  title:  "Scrum & bureaucracy"
   note:   |
     I think it's possible that for some people scrum is working pretty well.
     But not for me.

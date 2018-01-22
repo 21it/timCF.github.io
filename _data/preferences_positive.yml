@@ -1,18 +1,18 @@
 -
   icon:   "/img/function.png"
-  title:  "Functional languages"
+  title:  "Functional code"
 -
   icon:   "/img/haskell.png"
-  title:  "Strong static type system"
+  title:  "Strong static types"
 -
   icon:   "/img/apple.png"
-  title:  "Apple and MacOS"
+  title:  "Apple & MacOS"
 -
   icon:   "/img/fist.png"
-  title:  "Personal responsibility"
+  title:  "Responsibility"
 -
   icon:   "/img/documentation.png"
-  title:  "Project documentation"
+  title:  "Documentation"
 -
   icon:   "/img/flask.png"
   title:  "Automated tests"

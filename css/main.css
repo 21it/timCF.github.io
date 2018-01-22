@@ -2,6 +2,18 @@
   color: white;
 }
 
+.inline-wrapper {
+  list-style: none;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.inline {
+  display: inline-block;
+}
+
 .app-icon {
   min-width: 32px;
   width: 32px;
@@ -152,6 +164,10 @@ button {
   margin-top: 20px;
 }
 
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
 .app-myname-margin {
   margin-top: 9vmin;
   margin-bottom: 8vmin;
@@ -254,4 +270,12 @@ html, body {
 .dropdown {
   z-index: 1000;
   position: absolute;
+}
+
+.list-group {
+  margin: 0;
+}
+
+.list-group-item {
+  margin: 0;
 }
