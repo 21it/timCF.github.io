@@ -86,9 +86,9 @@ button {
 }
 
 .app-contacts {
-  color: cyan;
+  color: white;
   text-shadow: 1px 1px 0 black;
-  background-image:     url(/img/citadel.jpg);
+  background-image:     url(/img/sky-5.jpg);
   background-repeat:    no-repeat;
   background-size:      cover;
   background-position:  bottom;
