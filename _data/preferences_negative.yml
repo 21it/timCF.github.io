@@ -11,15 +11,16 @@
   title:  "Weak dynamic types"
   note:   |
     I'm absolutely against the weak dynamic type system in programming languages.
-    Yes, you can say that such languages accelerate the development process,
-    but the quality of the code falls disproportionately.
-    How many times have you seen stupid runtime errors like "undefined is not a function"?
-    Or you need to remember how implicit type conversions work in JavaScript?
+    It is usually assumed that such languages accelerate the development process,
+    but in reality the quality of the code falls disproportionately.
+    Weak dynamic type system is the world of stupid runtime errors like
+    "undefined is not a function" and unobvious implicit type conversions
+    (like in JavaScript).
 -
   icon:   "/img/nodejs.png"
   title:  "JavaScript & NodeJS"
   note:   |
-    JavaScript is really a bad language.
+    JavaScript is my most unloved language.
     Type system is weak and dynamic.
     Runtime system is single-threaded (concurrency in JS is not real multithreading).
     JS does not have a unified system of modules.
@@ -28,15 +29,16 @@
     JS does not have any types inference.
     JS does not have unified technology for working with asynchronous code.
     JS has absolutely mad NPM with very low-quality packages.
+    And finally this language is very popular,
+    and this is the only language that works in web browsers so
+    sooner or later you have to deal with it even if you do not want to.
 -
   icon:   "/img/microsoft.png"
   title:  "Microsoft Windows"
   note:   |
     Most GNU utilities do not work properly in Windows.
-    Where is my bash?
-    There is no normal package manager.
-    Where is my apt-get / homebrew?
-    I can not work properly in Windows.
+    Windows does not have normal package manager like apt-get or homebrew.
+    Windows is just pretty useless for me.
 -
   icon:   "/img/scrum.png"
   title:  "Scrum & bureaucracy"
