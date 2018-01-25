@@ -1,12 +1,35 @@
 -
   icon:   "/img/function.png"
   title:  "Functional code"
+  note:   |
+    I like functional languages.
+    The concept of immutable data
+    greatly improves code readability and
+    simplifies the development of multithreaded applications.
 -
   icon:   "/img/haskell.png"
   title:  "Strong static types"
+  note:   |
+    For most of my career, I've worked with
+    dynamically typed languages like Erlang and Elixir.
+    BEAM Erlang VM, Erlang and Elixir languages, OTP and Phoenix
+    frameworks are great tools to solve any kind of problem in
+    telecommunications area. And I like to work with this toolset.
+    But in my opinion this toolset is not perfect because of
+    dynamic type system. Of course, static analysis tools like
+    Dialyzer improve the situation, but not enough.
+    Some time ago I began to study Haskell language
+    and I really liked it. Safe, readable, predictable,
+    simple source code and the most powerful type system ever.
+    I'm not very experienced in the Haskell language,
+    but I like Haskell and I'm very interested to use it more.
 -
   icon:   "/img/apple.png"
   title:  "Apple & MacOS"
+  note:   |
+    Mac computer is superior and stylish hardware
+    with modern enterprise UNIX software.
+    Just works from the box. Perfect tool.
 -
   icon:   "/img/fist.png"
   title:  "Responsibility"
