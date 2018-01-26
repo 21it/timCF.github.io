@@ -54,9 +54,25 @@
 -
   icon:   "/img/flask.png"
   title:  "Automated tests"
+  note:   |
+    I'm not TDD fan, and usually I do not write tests at the earliest stages of
+    project development when the architecture can vary a lot.
+    But project can go to production only after 100% test coverage is achieved.
+    Automated tests greatly simplify future refactoring and other code changes.
+    And of course it's nice to be sure that every line of code was called
+    at least once and worked as expected.
 -
   icon:   "/img/documentation.png"
   title:  "Documentation"
+  note:   |
+    I always write documentation of my projects.
+    It is very important to formulate thoughts in the form of text starting from a technical task.
+    I write technical documentation manually in markdown language and I deal with
+    auto-generated (from source code) documentation as well.
 -
   icon:   "/img/snowflake.png"
   title:  "Nordic countries"
+  note:   |
+    I like the northern nature. And I like the sea. I definitely like the northern European countries
+    Norway, Sweden, Finland, Estonia and I dream about Iceland and Faroe Islands.
+    Canada and the northern border of the United States also look good.
