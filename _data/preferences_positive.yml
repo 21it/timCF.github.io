@@ -33,12 +33,30 @@
 -
   icon:   "/img/fist.png"
   title:  "Responsibility"
+  note:   |
+    Personal responsibility distinguishes a professional from a beginner in any field of activity,
+    including software development.
+    If a developer positions himself as a professional -
+    only he is responsible for the code written by him.
+    A professional can work alone on high-level tasks without
+    a layer of managers between him and business side.
+    A professional knows how to solve the problem properly without
+    blurring the responsibilities between team members, management and business.
+    If a professional needs something to solve a problem - he just gets it directly from the right people.
+    The professional does not need external motivation because he always knows what he is doing and why.
 -
-  icon:   "/img/documentation.png"
-  title:  "Documentation"
+  icon:   "/img/one.png"
+  title:  "Individual"
+  note:   |
+    As a rule, I prefer an individual working principle to the command.
+    It's not about sociofobia - it's about personal preferences and life principles.
+    As experience shows when working individually, I show much higher results and get more pleasure from what I do.
 -
   icon:   "/img/flask.png"
   title:  "Automated tests"
+-
+  icon:   "/img/documentation.png"
+  title:  "Documentation"
 -
   icon:   "/img/snowflake.png"
   title:  "Nordic countries"
