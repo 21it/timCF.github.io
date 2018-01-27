@@ -111,6 +111,13 @@ button {
   background-position:  center;
 }
 
+.app-code {
+  background-image:     url(/img/mac-1.jpg);
+  background-repeat:    no-repeat;
+  background-size:      cover;
+  background-position:  center;
+}
+
 .app-contacts {
   color: white;
   text-shadow: 1px 1px 0 black;

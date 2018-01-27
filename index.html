@@ -16,6 +16,7 @@ title: Ilja Tkachuk
           <li><a href="#summary">Summary</a></li>
           <li><a href="#preferences">Preferences</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#code">Code</a></li>
           <li><a href="#social">Links</a></li>
           <li><a href="#contacts">Contacts</a></li>
           <li class="divider"></li>
@@ -141,6 +142,31 @@ title: Ilja Tkachuk
           <div class="progress-bar" role="progressbar" style="background-color: {{ tech[1].color }}; width: {{ tech[1].skill }}%;">
           </div>
         </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Code -->
+<div class="container-fluid app-code" id="code">
+  <div class="row jumbotron app-block">
+    <div class="col-sm-12">
+      <div class="page-header">
+        <h1>Code</h1>
+      </div>
+    </div>
+    {% for project in site.data.projects %}
+      <div class="col-sm-6">
+        <div>
+          <a class="btn btn-primary small-vertical-margin micro-horizontal-margin" href={{ project.github }} target="_blank">{{project.name}}</a>
+          {% if project.demo %}
+            <a class="btn btn-info small-vertical-margin micro-horizontal-margin" href={{ project.demo }} target="_blank">demo</a>
+          {% endif %}
+          {% for tech in project.technologies %}
+            <img class="app-icon" src="{{ site.data.technologies[tech].icon }}"/>
+          {% endfor %}
+        </div>
+        <h4 class="micro-vertical-margin margin-bottom">{{project.description}}</h4>
       </div>
     {% endfor %}
   </div>

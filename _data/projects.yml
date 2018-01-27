@@ -1,30 +1,125 @@
-- {name: "Law", technologies: ["elixir"], description: "elixir project skeleton focused on code safety", github: "https://github.com/timCF/law", kind: "lib"}
-- {name: "Meme", technologies: ["elixir"], description: "memoization of function calls", github: "https://github.com/timCF/meme", kind: "lib"}
-- {name: "Maybe", technologies: ["elixir"], description: "soft data type conversions for elixir", github: "https://github.com/timCF/maybe", kind: "lib"}
-- {name: "jsfunky", technologies: ["coffee"], description: "crazy small js lib to operate data true functional way", github: "https://github.com/timCF/jsfunky", kind: "lib"}
-- {name: "Constantine", technologies: ["elixir"], description: "type-safe constants for elixir", github: "https://github.com/timCF/constantine", kind: "lib"}
-- {name: "Elixir-Test", technologies: ["elixir"], description: "test task for elixir developers", github: "https://github.com/heathmont/elixir-test", kind: "lib"}
-- {name: "Studio", technologies: ["elixir","mysql","coffee","jade","sass","brunch","reactjs","bootstrap"], description: "CRM system for rehearsal studio", github: "https://github.com/timCF/studio", kind: "app"}
-- {name: "Studio Mobile", technologies: ["react-native","livescript"], description: "Native mobile client for Studio application ( android / ios )", github: "https://github.com/timCF/studio_mobile", kind: "app"}
-- {name: "Sqlx", technologies: ["elixir","mysql"], description: "simple wrapper around emysql", github: "https://github.com/timCF/sqlx", kind: "lib"}
-- {name: "Cqlx", technologies: ["elixir","cassandra"], description: "simple wrapper around cqerl", github: "https://github.com/timCF/cqlx", kind: "lib"}
-- {name: "Yamlex", technologies: ["elixir"], description: "simple NIF-based (libyaml) parser, decode and encode YAML data", github: "https://github.com/timCF/yamlex", kind: "lib"}
-- {name: "Xmlex", technologies: ["elixir"], description: "simple wrapper around xmerl", github: "https://github.com/timCF/xmlex", kind: "lib"}
-- {name: "Methex", technologies: ["elixir"], description: "simple metrics in elixir", github: "https://github.com/timCF/methex", kind: "lib"}
-- {name: "Exroul", technologies: ["elixir"], description: "macro - based abstract roulette", github: "https://github.com/timCF/exroul", kind: "lib"}
-- {name: "Fps", technologies: ["elixir","coffee","phantomjs"], description: "API gives secure ( ssl support ) proxy servers for some countries", github: "https://github.com/timCF/fps", kind: "app", server: "http://5.39.63.60:9944/?cmd=proxylist"}
-- {name: "Pmaker", technologies: ["elixir"], description: "Peacemaker is very nice and simple wrapper around erlang cowboy webserver with erlang bullet websockets", github: "https://github.com/timCF/pmaker", kind: "lib"}
-- {name: "Upup!", technologies: ["elixir","mysql","coffee","jade","sass","brunch","reactjs","bootstrap","phantomjs"], description: "server-side application to auto upload and refresh data in vk.com social network", github: "https://github.com/timCF/upup", server: "http://5.39.63.60:8041/", kind: "app"}
-- {name: "Erlng", technologies: ["elixir"], description: "simple cryptographically strong RNG", github: "https://github.com/timCF/erlng", kind: "lib"}
-- {name: "Sysex", technologies: ["elixir"], description: "some runtime utils for BEAM VM", github: "https://github.com/timCF/sysex", kind: "lib"}
-- {name: "Megaclicker", technologies: ["elixir","webdriver"], description: "console clicker for your web applications", github: "https://github.com/timCF/megaclicker", kind: "app"}
-- {name: "Ps-gol", technologies: ["haskell","purescript"], description: "simple cellular automaton", github: "https://github.com/timCF/ps-gol", kind: "app", server: "http://timcf.github.io/ps-gol/"}
-- {name: "Socex", technologies: ["elixir"], description: "console vk.com chat, multi-acc supported", github: "https://github.com/timCF/socex", kind: "app"}
-- {name: "Pmclj", technologies: ["clojure"], description: "pipe matching for clojure language", github: "https://github.com/timCF/pmclj", kind: "lib"}
-- {name: "Vkclj", technologies: ["clojure"], description: "wrapper around some vk.com REST API functions", github: "https://github.com/timCF/vkclj", kind: "lib"}
-- {name: "Vkan", technologies: ["clojure"], description: "parse some vk.com data to json / csv", github: "https://github.com/timCF/vkan", kind: "app"}
-- {name: "Scelsx", technologies: ["scala"], description: "just scala-lang hello world : console util for format microsoft excel docs", github: "https://github.com/timCF/scelsx", kind: "app"}
-- {name: "Cibash", technologies: ["bash","ci"], description: "some bash scripts for CI build and deploy", github: "https://github.com/timCF/cibash", kind: "lib"}
-- {name: "timCF.github.io", technologies: ["jekyll","bootstrap"], description: "this static website", github: "https://github.com/timCF/timCF.github.io", kind: "app"}
-- {name: "Erlang-Universe", technologies: [], description: "slides contains Erlang / OTP / Elixir basics", github: "https://github.com/timCF/erlang-universe", kind: "app", server: "https://timcf.github.io/erlang-universe/index.html#1"}
-- {name: "Other", technologies: [], description: "you can find other open-source projects on my github", github: "https://github.com/timCF?tab=repositories", kind: "lib"}
+-
+  name: "Boilex"
+  technologies: ["elixir"]
+  description: "Project configuration focused on code safety"
+  github: "https://github.com/tim2CF/boilex"
+-
+  name: "Constantine"
+  technologies: ["elixir"]
+  description: "Type-safe constants for Elixir"
+  github: "https://github.com/timCF/constantine"
+-
+  name: "Meme"
+  technologies: ["elixir"]
+  description: "Memoization of function calls"
+  github: "https://github.com/timCF/meme"
+-
+  name: "Maybe"
+  technologies: ["elixir"]
+  description: "Types conversions in Elixir"
+  github: "https://github.com/timCF/maybe"
+-
+  name: "jsfunky"
+  technologies: ["livescript"]
+  description: "Crazy functional stuff for JS"
+  github: "https://github.com/timCF/jsfunky"
+-
+  name: "Elixir-Test"
+  technologies: ["elixir"]
+  description: "I am the author of this test task"
+  github: "https://heathmont.github.io/elixir-test/"
+-
+  name: "Studio"
+  technologies: ["elixir","sql","reactjs","bootstrap"]
+  description: "CRM system for rehearsal studio"
+  github: "https://github.com/timCF/studio"
+  demo: "https://lemooorstudio.ru/raspisanie.html"
+-
+  name: "Studio Mobile"
+  technologies: ["react-native","livescript"]
+  description: "Native android/ios client for Studio"
+  github: "https://github.com/timCF/studio_mobile"
+-
+  name: "Sqlx"
+  technologies: ["elixir","sql"]
+  description: "Wrapper around emysql"
+  github: "https://github.com/timCF/sqlx"
+-
+  name: "Cqlx"
+  technologies: ["elixir","nosql"]
+  description: "Wrapper around cqerl"
+  github: "https://github.com/timCF/cqlx"
+-
+  name: "Yamlex"
+  technologies: ["elixir"]
+  description: "NIF-based YAML parser"
+  github: "https://github.com/timCF/yamlex"
+-
+  name: "Xmlex"
+  technologies: ["elixir"]
+  description: "Wrapper around xmerl"
+  github: "https://github.com/timCF/xmlex"
+-
+  name: "Methex"
+  technologies: ["elixir"]
+  description: "Library for Elixir metrics"
+  github: "https://github.com/timCF/methex"
+-
+  name: "Exroul"
+  technologies: ["elixir"]
+  description: "Macro-based roulettes"
+  github: "https://github.com/timCF/exroul"
+-
+  name: "Fps"
+  technologies: ["elixir","phantomjs"]
+  description: "Proxy servers grabber"
+  github: "https://github.com/timCF/fps"
+-
+  name: "Upup!"
+  technologies: ["elixir","sql","reactjs","bootstrap","phantomjs"]
+  description: "Bot-uploader of content for vk.com social network"
+  github: "https://github.com/timCF/upup"
+  demo: "http://5.39.63.60:8041/"
+-
+  name: "Erlng"
+  technologies: ["elixir"]
+  description: "Simple cryptographically strong RNG"
+  github: "https://github.com/timCF/erlng"
+-
+  name: "Sysex"
+  technologies: ["elixir"]
+  description: "Simple runtime utils for BEAM VM"
+  github: "https://github.com/timCF/sysex"
+-
+  name: "Megaclicker"
+  technologies: ["elixir"]
+  description: "Clicker for web applications"
+  github: "https://github.com/timCF/megaclicker"
+-
+  name: "Ps-gol"
+  technologies: ["haskell"]
+  description: "Cellular automaton"
+  github: "https://github.com/timCF/ps-gol"
+  demo: "http://timcf.github.io/ps-gol/"
+-
+  name: "Pmclj"
+  technologies: ["clojure"]
+  description: "Pipe matching for Clojure"
+  github: "https://github.com/timCF/pmclj"
+-
+  name: "timCF.github.io"
+  technologies: ["jekyll","bootstrap"]
+  description: "This static website"
+  github: "https://github.com/timCF/timCF.github.io"
+  demo: "http://timcf.github.io"
+-
+  name: "Erlang-Universe"
+  technologies: []
+  description: "Slides about Erlang/OTP/Elixir"
+  github: "https://github.com/timCF/erlang-universe"
+  demo: "https://timcf.github.io/erlang-universe/index.html#1"
+-
+  name: "Other"
+  technologies: []
+  description: "Other open-source projects on my github"
+  github: "https://github.com/timCF?tab=repositories"
