@@ -16,13 +16,11 @@ title: Ilja Tkachuk
           <li><a href="#summary">Summary</a></li>
           <li><a href="#preferences">Preferences</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#social">Links</a></li>
           <li><a href="#contacts">Contacts</a></li>
           <li class="divider"></li>
-          <li><a href="https://github.com/timCF" target="_blank">Github</a></li>
+          <li><a href="https://github.com/timCF?tab=repositories" target="_blank">Github</a></li>
           <li><a href="https://timcf.github.io/erlang-universe/index.html#1" target="_blank">Erlang-Universe</a></li>
-          <li class="divider"></li>
-          <li><a href="https://ru.linkedin.com/in/ilya-tkachuk-a59a30aa" target="_blank">Linkedin</a></li>
-          <li><a href="https://www.facebook.com/llstrainll" target="_blank">Facebook</a></li>
           <li><a href="https://habrahabr.ru/users/strain/topics/" target="_blank">Habrahabr</a></li>
         </ul>
       </div>
@@ -145,6 +143,21 @@ title: Ilja Tkachuk
         </div>
       </div>
     {% endfor %}
+  </div>
+</div>
+
+<!-- Social -->
+<div class="container-fluid app-social" id="social">
+  <div class="app-block">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        {% for link in site.data.links %}
+          <a href={{ link.url }} class="btn btn-primary micro-horizontal-margin" target="_blank">
+            <span class="fa {{ link.icon }} fa-2x micro-vertical-margin"></span>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </div>
 

@@ -41,6 +41,16 @@
   margin-bottom: 10px;
 }
 
+.micro-vertical-margin {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.micro-horizontal-margin {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .no-padding {
   padding: 0;
 }
@@ -87,6 +97,10 @@ button {
   background-size:      cover;
   background-position:  center;
   */
+}
+
+.app-social {
+  background-color: #008080 /* #008080 #4682B4 #2F4F4F */;
 }
 
 .app-preferences {

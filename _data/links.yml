@@ -1,0 +1,12 @@
+-
+  url:  "https://github.com/timCF?tab=repositories"
+  icon: "fa-github"
+  name: "Github"
+-
+  url:  "https://ru.linkedin.com/in/ilya-tkachuk-a59a30aa"
+  icon: "fa-linkedin"
+  name: "Linkedin"
+-
+  url:  "https://www.facebook.com/llstrainll"
+  icon: "fa-facebook"
+  name: "Facebook"
