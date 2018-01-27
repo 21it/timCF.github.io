@@ -35,7 +35,7 @@
   github: "https://github.com/timCF/studio"
   demo: "https://lemooorstudio.ru/raspisanie.html"
 -
-  name: "Studio Mobile"
+  name: "Studio-Mobile"
   technologies: ["react-native","livescript"]
   description: "Native android/ios client for Studio"
   github: "https://github.com/timCF/studio_mobile"
