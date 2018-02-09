@@ -32,13 +32,18 @@
     And finally this language is very popular,
     and this is the only language that works in web browsers so
     sooner or later you have to deal with it even if you do not want to.
+    In spite of all of the above I'm pretty experienced in JS ecosystem -
+    I have production experience in JavaScript, CoffeeScript, LiveScript,
+    PureScript, Sass, Jade (Pug), React, React Native and many other
+    libraries, languages and frameworks... And my experience suggests
+    that it is better not to use these tools if there is another working alternative.
 -
   icon:   "/img/microsoft.png"
   title:  "Microsoft Windows"
   note:   |
     Most GNU utilities do not work properly in Windows.
     Windows does not have normal package manager like apt-get or homebrew.
-    Windows is just pretty useless for me.
+    UNIX operating systems are just much better suited for work.
 -
   icon:   "/img/scrum.png"
   title:  "Scrum & bureaucracy"

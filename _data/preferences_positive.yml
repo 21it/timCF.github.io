@@ -51,13 +51,13 @@
     As a rule, I prefer an individual working principle to the command.
     It's not about sociofobia - it's about personal preferences and life principles.
     As experience shows when working individually, I show much higher results and get more pleasure from things I do.
+    Of course I like to communicate and share experiences, I like teach people, but at a separate time.
+    I really do not like being distracted while writing my code.
 -
   icon:   "/img/flask.png"
   title:  "Automated tests"
   note:   |
-    I'm not TDD fan, and usually I do not write tests at the earliest stages of
-    project development when the architecture can vary a lot.
-    But project can go to production only after 100% test coverage is achieved.
+    I never commit uncovered / untested code. 100% test coverage is standard for my commercial projects.
     Automated tests greatly simplify future refactoring and other code changes.
     And of course it's nice to be sure that every line of code was called
     at least once and worked as expected.
