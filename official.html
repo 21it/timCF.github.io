@@ -1,0 +1,103 @@
+---
+layout: official
+title: Ilja Tkachuk
+---
+
+<article>
+
+  <h1>Ilja Tkachuk</h1>
+  <p class="subtitle">Erlang, Elixir, OTP developer. Functional programming enthusiast.</p>
+
+  <section>
+    <ul>
+      {% for property in site.data.short_facts %}
+        <li>
+          <strong>{{ property[0] }}</strong>:
+          <i>{{ property[1] }}</i>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section>
+    <h2>Summary</h2>
+
+    <p>
+      I have been programming since 2012. At the beginning I had some experience of development in imperative languages like C++ and JavaScript, but I did well only when I switched to functional languages like Erlang and Elixir.
+    </p>
+
+    <p>
+      Today my main skill is functional backend programming and I'm strong expert in BEAM/Erlang VM platform, Erlang and Elixir languages. I have strong understanding of multithreading and interaction between Erlang processes. Of course in commercial development I'm using mainstream frameworks like OTP, Phoenix and Ecto.
+    </p>
+
+    <p>
+      Future plans - to become more familiar with static-typed functional languages like Haskell. If static-typed languages for BEAM/Erlang VM like Elchemy or Alpaca will be successful - I will be happy to switch.
+    </p>
+  </section>
+
+  <section>
+    <h2>Things I do like</h2>
+
+    {% for pref in site.data.preferences_positive %}
+      <h3>{{ pref.title }}</h3>
+      <p>{{ pref.note }}</p>
+    {% endfor %}
+  </section>
+
+  <section>
+    <h2>Things I do NOT like</h2>
+
+    {% for pref in site.data.preferences_negative %}
+      <h3>{{ pref.title }}</h3>
+      <p>{{ pref.note }}</p>
+    {% endfor %}
+  </section>
+
+  <section>
+    <h2>Code examples</h2>
+
+    <ul>
+      {% for project in site.data.projects %}
+        <li>
+          <strong>
+            <a href={{ project.github }} target="_blank">
+              {{project.name}}
+            </a>
+          </strong>
+          {% assign tech_length = project.technologies | size %}
+          {% if tech_length != 0 %}
+            <i>
+              (
+                {% for tech in project.technologies %}
+                  {{tech}}
+                {% endfor %}
+              )
+            </i>
+          {% endif %}
+          <span>{{project.description}}</span>
+          {% if project.demo %}
+            <i>
+              <strong>
+                (<a href={{ project.demo }} target="_blank">demo</a>)
+              </strong>
+            </i>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contacts</h2>
+
+    <ul>
+      {% for contact in site.data.contacts %}
+        <li>
+          <strong>{{ contact.title }}</strong>:
+          <i>{{ contact.value }}</i>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+</article>
