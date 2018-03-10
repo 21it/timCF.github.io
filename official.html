@@ -54,6 +54,27 @@ title: Ilja Tkachuk
   </section>
 
   <section>
+    <h2>Skills</h2>
+
+    <ul>
+      {% for tech in site.data.technologies %}
+        <li>
+          <strong>{{ tech[1].name }}</strong>:
+          <i>
+            {% if tech[1].skill > 85 %}
+              expert
+            {% elsif tech[1].skill > 40 %}
+              advanced
+            {% else %}
+              beginner
+            {% endif %}
+          </i>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section>
     <h2>Code examples</h2>
 
     <ul>
