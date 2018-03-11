@@ -155,6 +155,12 @@ title: Ilja Tkachuk
           <i>{{ contact.value }}</i>
         </li>
       {% endfor %}
+      {% for link in site.data.links %}
+        <li>
+          <strong>{{ link.name }}</strong>:
+          <i><a href="{{ link.url }}" target="_blank">{{ link.url }}</a></i>
+        </li>
+      {% endfor %}
       <li>
         <strong>Homepage</strong>:
         <i><a href="https://timcf.github.io" target="_blank">https://timcf.github.io</a></i>
