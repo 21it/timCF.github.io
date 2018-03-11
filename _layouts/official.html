@@ -8,6 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>{{ page.title }}</title>
     <link rel="stylesheet" type="text/css" href="/bower_components/tufte-css/tufte.css?version={{ version }}"/>
+    <link rel="stylesheet" type="text/css" href="/bower_components/jquery-modal/jquery.modal.min.css?version={{ version }}"/>
     <link rel="shortcut icon" href="/favicon.ico?version={{ version }}"/>
   </head>
   <body>
@@ -15,5 +16,8 @@
     <div> {{ content }} </div>
 
     <script src="/bower_components/jquery/dist/jquery.js?version={{ version }}"></script>
+    <script src="/bower_components/html2pdf.js/dist/html2pdf.bundle.min.js?version={{ version }}"></script>
+    <script src="/bower_components/jquery-modal/jquery.modal.min.js?version={{ version }}"></script>
+    <script src="/js/official.js?version={{ version }}"></script>
   </body>
 </html>

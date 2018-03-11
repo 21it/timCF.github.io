@@ -3,12 +3,49 @@ layout: official
 title: Ilja Tkachuk
 ---
 
-<article>
+
+
+<!-- Modal HTML embedded directly into document -->
+<div id="pdf_popup" class="modal">
+  <form>
+    <fieldset>
+      <legend>What to include into CV</legend>
+      <br/>
+
+      {% for property in site.data.pdf_popup %}
+        <input
+          type="checkbox"
+          checked="checked"
+          onChange="{{ property.onchange }}"/>
+            <span>{{ property.title }}</span>
+            <br/>
+            <br/>
+      {% endfor %}
+
+      <button type="button" onClick="html2pdf(document.getElementById('cv'), {margin: 10})">
+        <strong>
+          Download CV as PDF
+        </strong>
+      </button>
+
+    </fieldset>
+  </form>
+</div>
+
+
+
+<!-- Link to open the modal -->
+<p><a href="index.html" target="_blank">Back to homepage</a></p>
+<p><a href="#pdf_popup" rel="modal:open">Download CV as PDF</a></p>
+
+
+<!-- CV -->
+<article id="cv">
 
   <h1>Ilja Tkachuk</h1>
   <p class="subtitle">Erlang, Elixir, OTP developer. Functional programming enthusiast.</p>
 
-  <section>
+  <section id="short_facts">
     <ul>
       {% for property in site.data.short_facts %}
         <li>
@@ -19,7 +56,7 @@ title: Ilja Tkachuk
     </ul>
   </section>
 
-  <section>
+  <section id="summary">
     <h2>Summary</h2>
 
     <p>
@@ -35,7 +72,7 @@ title: Ilja Tkachuk
     </p>
   </section>
 
-  <section>
+  <section id="preferences_positive">
     <h2>Things I do like</h2>
 
     {% for pref in site.data.preferences_positive %}
@@ -44,7 +81,7 @@ title: Ilja Tkachuk
     {% endfor %}
   </section>
 
-  <section>
+  <section id="preferences_negative">
     <h2>Things I do NOT like</h2>
 
     {% for pref in site.data.preferences_negative %}
@@ -53,7 +90,7 @@ title: Ilja Tkachuk
     {% endfor %}
   </section>
 
-  <section>
+  <section id="skills">
     <h2>Skills</h2>
 
     <ul>
@@ -74,7 +111,7 @@ title: Ilja Tkachuk
     </ul>
   </section>
 
-  <section>
+  <section id="code">
     <h2>Code examples</h2>
 
     <ul>
@@ -108,7 +145,7 @@ title: Ilja Tkachuk
     </ul>
   </section>
 
-  <section>
+  <section id="contacts">
     <h2>Contacts</h2>
 
     <ul>
@@ -118,6 +155,10 @@ title: Ilja Tkachuk
           <i>{{ contact.value }}</i>
         </li>
       {% endfor %}
+      <li>
+        <strong>Homepage</strong>:
+        <i><a href="https://timcf.github.io" target="_blank">https://timcf.github.io</a></i>
+      </li>
     </ul>
   </section>
 

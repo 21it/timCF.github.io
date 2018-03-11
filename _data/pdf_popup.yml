@@ -1,0 +1,18 @@
+-
+  title:    "Short facts"
+  onchange: "toggleCheckbox(this, 'short_facts')"
+-
+  title:    "Summary"
+  onchange: "toggleCheckbox(this, 'summary')"
+-
+  title:    "Preferences"
+  onchange: "toggleCheckbox(this, 'preferences_positive'); toggleCheckbox(this, 'preferences_negative');"
+-
+  title:    "Skills"
+  onchange: "toggleCheckbox(this, 'skills')"
+-
+  title:    "Code examples"
+  onchange: "toggleCheckbox(this, 'code')"
+-
+  title:    "Contacts"
+  onchange: "toggleCheckbox(this, 'contacts')"

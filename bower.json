@@ -20,6 +20,8 @@
     "typed.js": "^2.0.6",
     "novacancy.js": "chuckyglitch/novacancy.js#ec005e0546fd1832d2b1bbd76e4a5d1ef3205717",
     "tinseltown.js": "Antrikshy/Tinseltown.js#34691ef703008e340aa04c06246f851f181f57f9",
-    "magic": "^1.1.0"
+    "magic": "^1.1.0",
+    "html2pdf.js": "^0.8.2",
+    "jquery-modal": "^0.9.1"
   }
 }
