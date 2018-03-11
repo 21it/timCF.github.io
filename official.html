@@ -22,7 +22,7 @@ title: Ilja Tkachuk
             <br/>
       {% endfor %}
 
-      <button type="button" onClick="html2pdf(document.getElementById('cv'), {margin: 10})">
+      <button type="button" onClick="html2pdf(document.getElementById('cv'), {margin: 10, filename: 'Ilja-Tkachuk-CV.pdf'})">
         <strong>
           Download CV as PDF
         </strong>
@@ -42,8 +42,8 @@ title: Ilja Tkachuk
 <!-- CV -->
 <article id="cv">
 
-  <h1>Ilja Tkachuk</h1>
-  <p class="subtitle">Erlang, Elixir, OTP developer. Functional programming enthusiast.</p>
+  <h1>{{ site.data.content.my_name }}</h1>
+  <p class="subtitle">{{ site.data.content.my_subtitle }}</p>
 
   <section id="short_facts">
     <ul>
@@ -60,15 +60,15 @@ title: Ilja Tkachuk
     <h2>Summary</h2>
 
     <p>
-      I have been programming since 2012. At the beginning I had some experience of development in imperative languages like C++ and JavaScript, but I did well only when I switched to functional languages like Erlang and Elixir.
+      {{ site.data.content.summary_p1 }}
     </p>
 
     <p>
-      Today my main skill is functional backend programming and I'm strong expert in BEAM/Erlang VM platform, Erlang and Elixir languages. I have strong understanding of multithreading and interaction between Erlang processes. Of course in commercial development I'm using mainstream frameworks like OTP, Phoenix and Ecto.
+      {{ site.data.content.summary_p2 }}
     </p>
 
     <p>
-      Future plans - to become more familiar with static-typed functional languages like Haskell. If static-typed languages for BEAM/Erlang VM like Elchemy or Alpaca will be successful - I will be happy to switch.
+      {{ site.data.content.summary_p3 }}
     </p>
   </section>
 

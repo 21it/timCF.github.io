@@ -1,0 +1,20 @@
+my_name: |
+  Ilja Tkachuk
+my_subtitle: |
+  Erlang, Elixir, OTP developer. Functional programming enthusiast.
+summary_p1: |
+  I have been programming since 2012.
+  At the beginning I had some experience of development in imperative languages like C++ and JavaScript,
+  but I did well only when I switched to functional languages like Erlang and Elixir.
+summary_p2: |
+  Today my main skill is functional backend programming
+  and I'm strong expert in BEAM/Erlang VM platform, Erlang and Elixir languages.
+  I have strong understanding of multithreading and interaction between Erlang processes.
+  Of course in commercial development I'm using mainstream frameworks like OTP, Phoenix and Ecto.
+summary_p3: |
+  Future plans - to become more familiar with static-typed functional languages like Haskell.
+  If static-typed languages for BEAM/Erlang VM like
+  <a href="https://github.com/wende/elchemy" target="_blank" class="text-info">Elchemy</a>
+  or
+  <a href="https://github.com/alpaca-lang/alpaca" target="_blank" class="text-info">Alpaca</a>
+  will be successful - I will be happy to switch.
