@@ -125,11 +125,7 @@ title: Ilja Tkachuk
           {% assign tech_length = project.technologies | size %}
           {% if tech_length != 0 %}
             <i>
-              (
-                {% for tech in project.technologies %}
-                  {{tech}}
-                {% endfor %}
-              )
+              ({{ project.technologies | join: " " }})
             </i>
           {% endif %}
           <span>{{project.description}}</span>
