@@ -4,6 +4,11 @@
   description: "Project configuration focused on code safety"
   github: "https://github.com/tim2CF/boilex"
 -
+  name: "Aspire"
+  technologies: ["elixir"]
+  description: "100% safe types conversions"
+  github: "https://github.com/timCF/aspire"
+-
   name: "Constantine"
   technologies: ["elixir"]
   description: "Type-safe constants for Elixir"
@@ -13,11 +18,6 @@
   technologies: ["elixir"]
   description: "Memoization of function calls"
   github: "https://github.com/timCF/meme"
--
-  name: "Maybe"
-  technologies: ["elixir"]
-  description: "Types conversions in Elixir"
-  github: "https://github.com/timCF/maybe"
 -
   name: "jsfunky"
   technologies: ["livescript"]
