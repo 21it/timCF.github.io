@@ -40,16 +40,6 @@
   description: "Native android/ios client for Studio"
   github: "https://github.com/timCF/studio_mobile"
 -
-  name: "Sqlx"
-  technologies: ["elixir","sql"]
-  description: "Wrapper around emysql"
-  github: "https://github.com/timCF/sqlx"
--
-  name: "Cqlx"
-  technologies: ["elixir","nosql"]
-  description: "Wrapper around cqerl"
-  github: "https://github.com/timCF/cqlx"
--
   name: "Yamlex"
   technologies: ["elixir"]
   description: "NIF-based YAML parser"
@@ -90,6 +80,16 @@
   technologies: ["elixir"]
   description: "Simple runtime utils for BEAM VM"
   github: "https://github.com/timCF/sysex"
+-
+  name: "Sqlx"
+  technologies: ["elixir","sql"]
+  description: "Wrapper around emysql"
+  github: "https://github.com/timCF/sqlx"
+-
+  name: "Cqlx"
+  technologies: ["elixir","nosql"]
+  description: "Wrapper around cqerl"
+  github: "https://github.com/timCF/cqlx"
 -
   name: "Megaclicker"
   technologies: ["elixir"]
