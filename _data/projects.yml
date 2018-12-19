@@ -1,18 +1,23 @@
 -
+  name: "ExIco"
+  technologies: ["elixir"]
+  description: "Ratings of ICOs (web-scraping from other sites)"
+  demo: "https://178.128.192.125"
+-
   name: "Happeteer"
   technologies: ["haskell"]
   description: "Puppeteer client library (web-scraping oriented)"
   github: "https://github.com/timCF/happeteer"
 -
+  name: "Meme"
+  technologies: ["elixir"]
+  description: "Memoization of function calls"
+  github: "https://github.com/timCF/meme"
+-
   name: "ExCraft"
   technologies: ["elixir"]
   description: "Type-safe constructors for Elixir structures"
   github: "https://github.com/tim2CF/ex_craft"
--
-  name: "Boilex"
-  technologies: ["elixir"]
-  description: "Project configuration focused on code safety"
-  github: "https://github.com/tim2CF/boilex"
 -
   name: "Aspire"
   technologies: ["elixir"]
@@ -24,10 +29,15 @@
   description: "Type-safe constants for Elixir"
   github: "https://github.com/timCF/constantine"
 -
-  name: "Meme"
+  name: "Boilex"
   technologies: ["elixir"]
-  description: "Memoization of function calls"
-  github: "https://github.com/timCF/meme"
+  description: "Project configuration focused on code safety"
+  github: "https://github.com/tim2CF/boilex"
+-
+  name: "ExList"
+  technologies: ["elixir"]
+  description: "Funny (and inefficient) singly linked lists"
+  github: "https://github.com/timCF/ex_list"
 -
   name: "jsfunky"
   technologies: ["livescript"]
