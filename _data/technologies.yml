@@ -16,6 +16,12 @@ erlang:
   name:   "Erlang"
   skill:  90
   color:  "#B83998"
+haskell:
+  icon:   "/img/haskell.png"
+  site:   "https://www.haskell.org/"
+  name:   "Haskell (ML family)"
+  skill:  66
+  color:  "#5e5086"
 bash:
   icon:   "/img/bash.png"
   site:   "https://en.wikipedia.org/wiki/Bash_(Unix_shell)"
@@ -40,12 +46,6 @@ nosql:
   name:   "noSQL"
   skill:  40
   color:  "#dad8d8"
-haskell:
-  icon:   "/img/haskell.png"
-  site:   "https://www.haskell.org/"
-  name:   "Haskell (ML family)"
-  skill:  40
-  color:  "#5e5086"
 scala:
   icon:   "/img/scala.png"
   site:   "http://www.scala-lang.org/"
