@@ -1,9 +1,27 @@
+haskell:
+  icon:   "/img/haskell.png"
+  site:   "https://www.haskell.org/"
+  name:   "Haskell (ML family)"
+  skill:  66
+  color:  "#5e5086"
+yesod:
+  icon:   "/img/yesod.png"
+  site:   "https://www.yesodweb.com/"
+  name:   "Yesod Web Framework"
+  skill:  75
+  color:  "#5e5086"
 beam:
   icon:   "/img/erlang.png"
   site:   "https://www.erlang.org/"
   name:   "BEAM/Erlang VM"
   skill:  100
   color:  "#B83998"
+metaprogramming:
+  icon:   "/img/elixir.png"
+  site:   "http://elixir-lang.org/"
+  name:   "Elixir metaprogrmming"
+  skill:  100
+  color:  "#6e4a7e"
 elixir:
   icon:   "/img/elixir.png"
   site:   "http://elixir-lang.org/"
@@ -16,12 +34,6 @@ erlang:
   name:   "Erlang"
   skill:  90
   color:  "#B83998"
-haskell:
-  icon:   "/img/haskell.png"
-  site:   "https://www.haskell.org/"
-  name:   "Haskell (ML family)"
-  skill:  66
-  color:  "#5e5086"
 bash:
   icon:   "/img/bash.png"
   site:   "https://en.wikipedia.org/wiki/Bash_(Unix_shell)"

@@ -1,18 +1,38 @@
+- name: "Rentier"
+  technologies: ["yesod", "haskell"]
+  description: "Modern solution for rental business"
+  demo: "https://rentier.ml/"
 -
   name: "Happeteer"
   technologies: ["haskell"]
   description: "Puppeteer client library (web-scraping oriented)"
   github: "https://github.com/timCF/happeteer"
 -
-  name: "Meme"
-  technologies: ["elixir"]
-  description: "Memoization of function calls"
-  github: "https://github.com/timCF/meme"
--
   name: "haskell-tools"
   technologies: ["bash"]
   description: "Utilities for builds and deploys of Haskell programs"
   github: "https://github.com/timCF/haskell-tools"
+-
+  name: "Ps-gol"
+  technologies: ["haskell"]
+  description: "Cellular automaton"
+  github: "https://github.com/timCF/ps-gol"
+  demo: "http://timcf.github.io/ps-gol/"
+-
+  name: "Defnamed"
+  technologies: ["elixir"]
+  description: "Compile-time named arguments"
+  github: "https://github.com/coingaming/defnamed"
+-
+  name: "GenEnum"
+  technologies: ["elixir"]
+  description: "Compile-time enumerations"
+  github: "https://github.com/coingaming/gen_enum"
+-
+  name: "Meme"
+  technologies: ["elixir"]
+  description: "Memoization of function calls"
+  github: "https://github.com/timCF/meme"
 -
   name: "ExCraft"
   technologies: ["elixir"]
@@ -47,7 +67,7 @@
   name: "Elixir-Test"
   technologies: ["elixir"]
   description: "I am the author of this test task"
-  github: "https://heathmont.github.io/elixir-test/"
+  github: "https://coingaming.github.io/elixir-test/"
 -
   name: "Studio"
   technologies: ["elixir","sql","reactjs","bootstrap"]
@@ -85,12 +105,6 @@
   description: "Proxy servers grabber"
   github: "https://github.com/timCF/fps"
 -
-  name: "Upup!"
-  technologies: ["elixir","sql","reactjs","bootstrap","phantomjs"]
-  description: "Bot-uploader of content for vk.com social network"
-  github: "https://github.com/timCF/upup"
-  demo: "http://5.39.63.60:8041/"
--
   name: "Erlng"
   technologies: ["elixir"]
   description: "Simple cryptographically strong RNG"
@@ -115,12 +129,6 @@
   technologies: ["elixir"]
   description: "Clicker for web applications"
   github: "https://github.com/timCF/megaclicker"
--
-  name: "Ps-gol"
-  technologies: ["haskell"]
-  description: "Cellular automaton"
-  github: "https://github.com/timCF/ps-gol"
-  demo: "http://timcf.github.io/ps-gol/"
 -
   name: "Pmclj"
   technologies: ["clojure"]
