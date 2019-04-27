@@ -89,11 +89,7 @@ button {
   background-position:  center;
 }
 
-.app-skills {
-  background-color: #008080;
-}
-
-.app-social {
+.app-blue-bg {
   background-color: #008080 /* #008080 #4682B4 #2F4F4F */;
 }
 
@@ -123,10 +119,6 @@ button {
 .app-contacts .page-header {
   border-bottom: 2px solid #D3D3D3;
   margin-top: 0;
-}
-
-.app-long-summary {
-  background-color: #008080 /* #008080 #4682B4 #2F4F4F */;
 }
 
 .app-summary-img {
@@ -170,6 +162,10 @@ button {
 
 .margin-top {
   margin-top: 20px;
+}
+
+.small-margin-bottom {
+  margin-bottom: 10px;
 }
 
 .margin-bottom {

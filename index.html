@@ -17,6 +17,7 @@ title: Ilja Tkachuk
           <li><a href="#preferences">Preferences</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#code">Code</a></li>
+          <li><a href="#talks">Talks</a></li>
           <li><a href="#social">Links</a></li>
           <li><a href="#contacts">Contacts</a></li>
           <li class="divider"></li>
@@ -43,7 +44,7 @@ title: Ilja Tkachuk
 </div>
 
 <!-- Long summury -->
-<div class="container-fluid app-long-summary" id="summary">
+<div class="container-fluid app-blue-bg" id="summary">
   <div class="row jumbotron app-block">
     <div class="col-md-6 app-block">
       <div class="page-header no-margin-top">
@@ -118,7 +119,7 @@ title: Ilja Tkachuk
 </div>
 
 <!-- Skills -->
-<div class="container-fluid app-skills" id="skills">
+<div class="container-fluid app-blue-bg" id="skills">
   <div class="row jumbotron app-block">
     <div class="col-sm-12">
       <div class="page-header">
@@ -170,9 +171,36 @@ title: Ilja Tkachuk
   </div>
 </div>
 
-<!-- Social -->
-<div class="container-fluid app-social" id="social">
-  <div class="app-block">
+<!-- Talks + Social -->
+<div class="container-fluid app-blue-bg">
+  <div class="row jumbotron app-block" id="talks">
+      <div class="col-sm-12">
+        <div class="page-header">
+          <h1>Talks</h1>
+        </div>
+      </div>
+      {% for talk in site.data.talks %}
+        <div class="col-sm-6 col-xs-12">
+          <video width="100%" controls="controls" preload="none" poster={{ talk.video_poster }}>
+            <source src={{ talk.video_url }} type={{ talk.video_type }}>
+          </video>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <div class="margin-top hidden-sm hidden-md hidden-lg"></div>
+          <a class="btn btn-default small-margin-bottom disabled inline">
+            {{ talk.title }}
+          </a>
+          <a class="btn btn-info small-margin-bottom" href={{ talk.slides_url }} target="_blank">
+            slides
+          </a>
+          <div class="margin-bottom hidden-sm hidden-md hidden-lg"></div>
+          <h4 class="micro-vertical-margin margin-bottom">
+            {{ talk.description }}
+          </h4>
+        </div>
+      {% endfor %}
+  </div>
+  <div class="app-block" id="social">
     <div class="row">
       <div class="col-xs-12 text-center">
         {% for link in site.data.links %}

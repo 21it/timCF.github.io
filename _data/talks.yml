@@ -1,0 +1,11 @@
+-
+  video_url:  "//tkachuk-labs.bitbucket.io/9-scalar-blindness.mp4"
+  video_type: "video/mp4"
+  video_poster: "/img/9-scalar-blindness-poster.png"
+  slides_url: "//timcf.github.io/erlang-universe/9-scalar-blindness.html#1"
+  title: "Scalar blindness"
+  description: |
+    It’s mostly about common practice of scalar types overloading.
+    I’ll explain by examples why this practice is bad and will show how
+    to completely fix it with properly designed algebraic data types (in Haskell)
+    and how to decrease this pain a little bit in Elixir with macro.
