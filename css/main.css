@@ -273,3 +273,7 @@ html, body {
 .list-group-item {
   margin: 0;
 }
+
+.bordered {
+  border: 2px solid #bbbbbb;
+}

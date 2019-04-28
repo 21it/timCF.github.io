@@ -181,12 +181,28 @@ title: Ilja Tkachuk
       </div>
       {% for talk in site.data.talks %}
         <div class="col-sm-6 col-xs-12">
-          <video width="100%" controls="controls" preload="none" poster={{ talk.video_poster }}>
-            <source src={{ talk.video_url }} type={{ talk.video_type }}>
-          </video>
+          <div class="bordered margin-bottom">
+            <video
+                class="video-js"
+                width="100%"
+                controls
+                preload="none"
+                poster={{ talk.video_poster }}
+                playsinline
+                webkit-playsinline
+                data-setup='{"fluid": true, "liveui": true}'>
+              <source src={{ talk.video_url }} type={{ talk.video_type }}>
+              <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">
+                  supports HTML5 video
+                </a>
+              </p>
+            </video>
+          </div>
         </div>
         <div class="col-sm-6 col-xs-12">
-          <div class="margin-top hidden-sm hidden-md hidden-lg"></div>
           <a class="btn btn-default margin-bottom disabled inline">
             {{ talk.title }}
           </a>
@@ -198,7 +214,6 @@ title: Ilja Tkachuk
           <a class="btn btn-info margin-bottom" href={{ talk.video_url }} target="_blank">
             download video
           </a>
-          <div class="margin-bottom hidden-sm hidden-md hidden-lg"></div>
           <h4 class="micro-vertical-margin margin-bottom">
             {{ talk.description }}
           </h4>
