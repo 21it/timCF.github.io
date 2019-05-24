@@ -29,6 +29,16 @@
   description: "Compile-time enumerations"
   github: "https://github.com/coingaming/gen_enum"
 -
+  name: "Equalable"
+  technologies: ["elixir"]
+  description: "Symmetric equivalence relation for pair of types"
+  github: "https://github.com/timCF/equalable"
+-
+  name: "Comparable"
+  technologies: ["elixir"]
+  description: "Ordering relation protocol"
+  github: "https://github.com/coingaming/comparable"
+-
   name: "Meme"
   technologies: ["elixir"]
   description: "Memoization of function calls"
@@ -69,17 +79,6 @@
   description: "I am the author of this test task"
   github: "https://coingaming.github.io/elixir-test/"
 -
-  name: "Studio"
-  technologies: ["elixir","sql","reactjs","bootstrap"]
-  description: "CRM system for rehearsal studio"
-  github: "https://github.com/timCF/studio"
-  demo: "https://lemooorstudio.ru/raspisanie.html"
--
-  name: "Studio-Mobile"
-  technologies: ["react-native","livescript"]
-  description: "Native android/ios client for Studio"
-  github: "https://github.com/timCF/studio_mobile"
--
   name: "Yamlex"
   technologies: ["elixir"]
   description: "NIF-based YAML parser"
@@ -90,30 +89,15 @@
   description: "Wrapper around xmerl"
   github: "https://github.com/timCF/xmlex"
 -
-  name: "Methex"
-  technologies: ["elixir"]
-  description: "Library for Elixir metrics"
-  github: "https://github.com/timCF/methex"
--
   name: "Exroul"
   technologies: ["elixir"]
   description: "Macro-based roulettes"
   github: "https://github.com/timCF/exroul"
 -
-  name: "Fps"
-  technologies: ["elixir","phantomjs"]
-  description: "Proxy servers grabber"
-  github: "https://github.com/timCF/fps"
--
   name: "Erlng"
   technologies: ["elixir"]
   description: "Simple cryptographically strong RNG"
   github: "https://github.com/timCF/erlng"
--
-  name: "Sysex"
-  technologies: ["elixir"]
-  description: "Simple runtime utils for BEAM VM"
-  github: "https://github.com/timCF/sysex"
 -
   name: "Sqlx"
   technologies: ["elixir","sql"]
@@ -124,11 +108,6 @@
   technologies: ["elixir","nosql"]
   description: "Wrapper around cqerl"
   github: "https://github.com/timCF/cqlx"
--
-  name: "Megaclicker"
-  technologies: ["elixir"]
-  description: "Clicker for web applications"
-  github: "https://github.com/timCF/megaclicker"
 -
   name: "Pmclj"
   technologies: ["clojure"]
