@@ -1,5 +1,5 @@
 -
-  icon:   "font-mfizz-icon icon-go"
+  icon:   "font-awesome-icon fab fa-cuttlefish"
   title:  "Imperative code"
   note:   |
     I understand the great importance of imperative languages.
@@ -7,7 +7,7 @@
     Mutable data and imperative constructions make high-level code more
     confusing and unobvious (especially in case of multithreading).
 -
-  icon:   "font-mfizz-icon icon-php"
+  icon:   "font-awesome-icon fab fa-php"
   title:  "Weak dynamic types"
   note:   |
     I'm absolutely against the weak dynamic type system in programming languages.
