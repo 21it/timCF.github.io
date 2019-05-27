@@ -1,5 +1,5 @@
 -
-  icon:   "/img/C.png"
+  icon:   "font-mfizz-icon icon-go"
   title:  "Imperative code"
   note:   |
     I understand the great importance of imperative languages.
@@ -7,7 +7,7 @@
     Mutable data and imperative constructions make high-level code more
     confusing and unobvious (especially in case of multithreading).
 -
-  icon:   "/img/perl.png"
+  icon:   "font-mfizz-icon icon-php"
   title:  "Weak dynamic types"
   note:   |
     I'm absolutely against the weak dynamic type system in programming languages.
@@ -17,7 +17,7 @@
     "undefined is not a function" and unobvious implicit type conversions
     (like in JavaScript).
 -
-  icon:   "/img/nodejs.png"
+  icon:   "font-awesome-icon fab fa-js"
   title:  "JavaScript & NodeJS"
   note:   |
     JavaScript is my most unloved language.
@@ -38,14 +38,14 @@
     libraries, languages and frameworks... And my experience suggests
     that it is better not to use these tools if there is another working alternative.
 -
-  icon:   "/img/microsoft.png"
+  icon:   "font-awesome-icon fab fa-windows"
   title:  "Microsoft Windows"
   note:   |
     Most GNU utilities do not work properly in Windows.
     Windows does not have normal package manager like apt-get or homebrew.
     UNIX operating systems are just much better suited for work.
 -
-  icon:   "/img/scrum.png"
+  icon:   "font-awesome-icon fab fa-atlassian"
   title:  "Scrum & bureaucracy"
   note:   |
     I think it's possible that for some people scrum is working pretty well.
@@ -54,7 +54,7 @@
     It seems that the scrum is working well when everything is going according to plan
     and the team is working with high rank professionals, but in reality this never happens.
 -
-  icon:   "/img/cactus.png"
+  icon:   "font-awesome-icon fab fa-hotjar"
   title:  "Hot countries"
   note:   |
     I just do not like the hot climate, it's physically hard for me.

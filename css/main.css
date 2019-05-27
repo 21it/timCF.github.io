@@ -277,3 +277,22 @@ html, body {
 .bordered {
   border: 2px solid #bbbbbb;
 }
+
+.flex-center-vertical {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.font-mfizz-icon {
+  margin-top: 18px;
+  margin-right: 8px;
+  font-size: 36px;
+}
+
+.font-awesome-icon {
+  margin-top: 8px;
+  margin-bottom: 9px;
+  margin-right: 8px;
+  font-size: 24px;
+}
