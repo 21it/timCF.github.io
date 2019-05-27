@@ -1,5 +1,5 @@
 -
-  icon:   "font-awesome-icon fab fa-cuttlefish"
+  icon:   "devicons-icon devicons devicons-go"
   title:  "Imperative code"
   note:   |
     I understand the great importance of imperative languages.
@@ -45,7 +45,7 @@
     Windows does not have normal package manager like apt-get or homebrew.
     UNIX operating systems are just much better suited for work.
 -
-  icon:   "font-awesome-icon fab fa-atlassian"
+  icon:   "devicons-icon devicons devicons-scrum"
   title:  "Scrum & bureaucracy"
   note:   |
     I think it's possible that for some people scrum is working pretty well.

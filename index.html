@@ -87,9 +87,9 @@ title: Ilja Tkachuk
             <h1>Things I do like</h1>
           </li>
           {% for pref in site.data.preferences_positive %}
-            <li class="list-group-item inline-wrapper">
-              <img src="{{ pref.icon }}" class="app-icon inline">
-              <div class="btn btn-success disabled inline">{{ pref.title }}</div>
+            <li class="list-group-item flex-center-vertical">
+              <i class="{{ pref.icon }}"></i>
+              <div class="btn btn-success disabled">{{ pref.title }}</div>
             </li>
             <li class="list-group-item small-vertical-margin">
               <span>{{ pref.note }}</span>
@@ -103,7 +103,7 @@ title: Ilja Tkachuk
             <h1>Things I do not like</h1>
           </li>
           {% for pref in site.data.preferences_negative %}
-            <li class="list-group-item inline-wrapper flex-center-vertical">
+            <li class="list-group-item flex-center-vertical">
               <i class="{{ pref.icon }}"></i>
               <span class="btn btn-danger disabled">{{ pref.title }}</span>
             </li>

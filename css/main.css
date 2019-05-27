@@ -2,14 +2,6 @@
   color: white;
 }
 
-.inline-wrapper {
-  list-style: none;
-  width: 100%;
-  white-space: nowrap;
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-
 .inline {
   display: inline-block;
 }
@@ -291,8 +283,12 @@ html, body {
 }
 
 .font-awesome-icon {
-  margin-top: 8px;
-  margin-bottom: 9px;
-  margin-right: 8px;
-  font-size: 24px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-right: 6px;
+  font-size: 26px;
+}
+
+.devicons-icon {
+  font-size: 38px;
 }

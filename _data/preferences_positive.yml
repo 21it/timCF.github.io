@@ -1,5 +1,5 @@
 -
-  icon:   "/img/function.png"
+  icon:   "font-awesome-icon fas fa-superscript"
   title:  "Functional code"
   note:   |
     I like functional languages.
@@ -7,7 +7,7 @@
     greatly improves code readability and
     simplifies the development of multithreaded applications.
 -
-  icon:   "/img/haskell.png"
+  icon:   "devicons-icon devicons devicons-haskell"
   title:  "Strong static types"
   note:   |
     For most of my career, I've worked with
@@ -24,14 +24,14 @@
     I'm not very experienced in the Haskell language,
     but I like Haskell and I'm very interested to use it more.
 -
-  icon:   "/img/apple.png"
+  icon:   "font-awesome-icon fab fa-apple"
   title:  "Apple & MacOS"
   note:   |
     Mac computer is superior and stylish hardware
     with modern enterprise UNIX software.
     Just works from the box. Perfect tool.
 -
-  icon:   "/img/fist.png"
+  icon:   "font-awesome-icon fas fa-fist-raised"
   title:  "Responsibility"
   note:   |
     Personal responsibility distinguishes a professional from a beginner in any field of activity,
@@ -45,7 +45,7 @@
     If a professional needs something to solve a problem - he just gets it directly from the right people.
     The professional does not need external motivation because he always knows what he is doing and why.
 -
-  icon:   "/img/flask.png"
+  icon:   "font-awesome-icon fas fa-robot"
   title:  "Automated tests"
   note:   |
     I never commit uncovered / untested code. 100% test coverage is standard for my commercial projects.
@@ -53,7 +53,7 @@
     And of course it's nice to be sure that every line of code was called
     at least once and worked as expected.
 -
-  icon:   "/img/documentation.png"
+  icon:   "font-awesome-icon far fa-file-alt"
   title:  "Documentation"
   note:   |
     I always write documentation of my projects.
@@ -61,7 +61,7 @@
     I write technical documentation manually in markdown language and I deal with
     auto-generated (from source code) documentation as well.
 -
-  icon:   "/img/snowflake.png"
+  icon:   "font-awesome-icon fas fa-snowflake"
   title:  "Nordic countries"
   note:   |
     I like the northern nature. And I like the sea. I definitely like the northern European countries
