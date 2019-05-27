@@ -1,5 +1,5 @@
 - name: "Rentier"
-  technologies: ["yesod", "haskell"]
+  technologies: ["haskell","yesod"]
   description: "Modern solution for rental business"
   demo: "https://rentier.ml/"
 -
@@ -115,7 +115,7 @@
   github: "https://github.com/timCF/pmclj"
 -
   name: "timCF.github.io"
-  technologies: ["jekyll","bootstrap"]
+  technologies: ["bootstrap","jekyll"]
   description: "This static website"
   github: "https://github.com/timCF/timCF.github.io"
   demo: "http://timcf.github.io"

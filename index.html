@@ -128,8 +128,10 @@ title: Ilja Tkachuk
     </div>
     {% for tech in site.data.technologies %}
       <div class="col-sm-6">
-        <img src="{{ tech[1].icon }}" class="app-icon">
-        <span>{{ tech[1].name }}</span>
+        <div class="flex-center-vertical">
+          <i class="{{ tech[1].icon }} micro-margin-right"></i>
+          <span>{{ tech[1].name }}</span>
+        </div>
         <div class="progress">
           <div class="progress-bar" role="progressbar" style="background-color: {{ tech[1].color }}; width: {{ tech[1].skill }}%;">
           </div>
@@ -149,7 +151,7 @@ title: Ilja Tkachuk
     </div>
     {% for project in site.data.projects %}
       <div class="col-sm-6">
-        <div>
+        <div class="flex-center-vertical">
           {% if project.github %}
             <a class="btn btn-primary small-vertical-margin micro-horizontal-margin" href={{ project.github }} target="_blank">{{project.name}}</a>
           {% endif %}
@@ -158,11 +160,12 @@ title: Ilja Tkachuk
               <a class="btn btn-info small-vertical-margin micro-horizontal-margin" href={{ project.demo }} target="_blank">demo</a>
             {% else %}
               <a class="btn btn-info small-vertical-margin micro-horizontal-margin" href={{ project.demo }} target="_blank">{{project.name}}</a>
-              <span>(not open-source)</span>
+              <span class="small-left-margin">(not open-source)</span>
             {% endif %}
           {% endif %}
+          <div class="small-left-margin"></div>
           {% for tech in project.technologies %}
-            <img class="app-icon" src="{{ site.data.technologies[tech].icon }}"/>
+            <i class="{{ site.data.technologies[tech].icon }}"></i>
           {% endfor %}
         </div>
         <h4 class="micro-vertical-margin margin-bottom">{{project.description}}</h4>

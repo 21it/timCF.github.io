@@ -28,9 +28,17 @@
   margin: 0 auto;
 }
 
+.micro-margin-right {
+  margin-right: 4px;
+}
+
 .small-vertical-margin {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.small-left-margin {
+  margin-left: 10px;
 }
 
 .micro-vertical-margin {
@@ -273,7 +281,7 @@ html, body {
 .flex-center-vertical {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+  flex-flow: row wrap;
 }
 
 .font-mfizz-icon {
