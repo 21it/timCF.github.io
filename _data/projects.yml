@@ -1,7 +1,7 @@
-- name: "Rentier"
+- name: "Reserfy.net"
   technologies: ["haskell","yesod"]
-  description: "Modern solution for rental business"
-  demo: "https://rentier.ml/"
+  description: "Modern solution for online reservations"
+  demo: "https://reserfy.net/"
 -
   name: "Happeteer"
   technologies: ["haskell"]
@@ -17,7 +17,7 @@
   technologies: ["haskell"]
   description: "Cellular automaton"
   github: "https://github.com/timCF/ps-gol"
-  demo: "http://timcf.github.io/ps-gol/"
+  demo: "https://itkach.uk/ps-gol/"
 -
   name: "Defnamed"
   technologies: ["elixir"]
@@ -114,17 +114,17 @@
   description: "Pipe matching for Clojure"
   github: "https://github.com/timCF/pmclj"
 -
-  name: "timCF.github.io"
+  name: "itkach.uk"
   technologies: ["bootstrap","jekyll"]
   description: "This static website"
   github: "https://github.com/timCF/timCF.github.io"
-  demo: "http://timcf.github.io"
+  demo: "https://itkach.uk"
 -
   name: "Erlang-Universe"
   technologies: []
   description: "Slides about Erlang/OTP/Elixir"
   github: "https://github.com/timCF/erlang-universe"
-  demo: "https://timcf.github.io/erlang-universe/index.html#1"
+  demo: "https://itkach.uk/erlang-universe/index.html#1"
 -
   name: "Other"
   technologies: []
