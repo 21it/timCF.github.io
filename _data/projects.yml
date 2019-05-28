@@ -118,7 +118,6 @@
   technologies: ["bootstrap","jekyll"]
   description: "This static website"
   github: "https://github.com/timCF/timCF.github.io"
-  demo: "https://itkach.uk"
 -
   name: "Erlang-Universe"
   technologies: []
