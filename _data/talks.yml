@@ -1,7 +1,7 @@
 -
   video_url:  "https://tkachuk-labs.github.io/talks/9-scalar-blindness.mp4"
   video_type: "video/mp4"
-  video_poster: "/img/9-scalar-blindness-poster.png"
+  video_poster: "/img/vp-0.png"
   slides_url: "https://itkach.uk/erlang-universe/9-scalar-blindness.html#1"
   title: "Scalar blindness"
   description: |

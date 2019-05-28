@@ -83,7 +83,7 @@ button {
   height:     100vh;
   min-height: 100vh;
   max-height: 100vh;
-  background-image:     url(/img/index-bg.png);
+  background-image:     url(/img/bg-0.png);
   background-repeat:    no-repeat;
   background-size:      cover;
   background-position:  center;
@@ -94,14 +94,14 @@ button {
 }
 
 .app-preferences {
-  background-image:     url(/img/aerial.jpg);
+  background-image:     url(/img/bg-1.jpg);
   background-repeat:    no-repeat;
   background-size:      cover;
   background-position:  center;
 }
 
 .app-code {
-  background-image:     url(/img/mac-1.jpg);
+  background-image:     url(/img/bg-2.jpg);
   background-repeat:    no-repeat;
   background-size:      cover;
   background-position:  center;
@@ -110,7 +110,7 @@ button {
 .app-contacts {
   color: white;
   text-shadow: 1px 1px 0 black;
-  background-image:     url(/img/sunset.jpeg);
+  background-image:     url(/img/bg-3.jpg);
   background-repeat:    no-repeat;
   background-size:      cover;
   background-position:  bottom;
@@ -136,7 +136,7 @@ button {
 }
 
 .app-main-ava {
-  background-image: url(/img/ava/ava3.jpg);
+  background-image: url(/img/ava.jpg);
   background-position: 40% 1%;
   background-size: 160%;
   background-repeat: no-repeat;
