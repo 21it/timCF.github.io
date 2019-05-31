@@ -1,6 +1,8 @@
 "use strict";
 (function() {
 
+  var timeout = 250;
+
   var novacancy = function() {
     var glow_color = '#ffffff';
     var glow_blur = ['0 0 15px #ffffff', '0 0 10px #008000', '0 0 5px #0000ff', '0.5vmin 0.5vmin 0 #000000'];
@@ -27,7 +29,7 @@
     $('[data-toggle="popover"]').popover();
     $('[data-toggle="tooltip"]').tooltip();
     new Typed('#app-myname', {
-      strings: ['Ilja Tkachuk\naka timCF'],
+      strings: ['Ilja Tkachuk^500\naka timCF^500'],
       showCursor: true,
       cursorChar: "▐",
       typeSpeed: 30,
@@ -36,14 +38,14 @@
         $('.app-main-ava').addClass("app-img");
         $('.typed-cursor').addClass("tnsl-flicker");
         tnslInit(0);
-        novacancy();
+        setTimeout(novacancy, timeout);
       }
     });
   };
 
   $(window).load(function() {
     $(".app-main-ava").removeClass("hidden");
-    main();
+    setTimeout(main, timeout * 3);
   });
 
   $(document).ready(function() {
