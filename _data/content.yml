@@ -13,10 +13,7 @@ summary_p2: |
   Of course in commercial development I'm using mainstream frameworks like OTP, Phoenix and Ecto.
 summary_p3: |
   Future plans - to become more familiar with static-typed functional languages.
-  If static-typed languages for BEAM/Erlang VM like
-  <a href="https://github.com/wende/elchemy" target="_blank" class="text-info">Elchemy</a>
-  or
-  <a href="https://github.com/alpaca-lang/alpaca" target="_blank" class="text-info">Alpaca</a>
+  If static-typed languages for BEAM/Erlang VM like Alpaca, Gleam or Elchemy
   will be successful - I will be happy to switch.
   Also I have a huge interest in Haskell programming language and I'm doing my own personal project
   using Yesod Web Framework.
