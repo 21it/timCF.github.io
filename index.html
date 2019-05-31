@@ -21,9 +21,9 @@ title: Ilja Tkachuk
           <li><a href="#social">Links</a></li>
           <li><a href="#contacts">Contacts</a></li>
           <li class="divider"></li>
-          <li><a href="https://github.com/timCF?tab=repositories" target="_blank">Github</a></li>
-          <li><a href="https://itkach.uk/erlang-universe/index.html#1" target="_blank">Erlang-Universe</a></li>
-          <li><a href="https://habrahabr.ru/users/strain/topics/" target="_blank">Habrahabr</a></li>
+          <li><a href="https://github.com/timCF?tab=repositories" target="_blank" rel="noreferrer">Github</a></li>
+          <li><a href="https://itkach.uk/erlang-universe/index.html#1" target="_blank" rel="noreferrer">Erlang-Universe</a></li>
+          <li><a href="https://habrahabr.ru/users/strain/topics/" target="_blank" rel="noreferrer">Habrahabr</a></li>
           <li><a href="official.html" target="_blank">Official-CV</a></li>
         </ul>
       </div>
@@ -153,13 +153,13 @@ title: Ilja Tkachuk
       <div class="col-sm-6">
         <div class="flex-center-vertical">
           {% if project.github %}
-            <a class="btn btn-primary small-vertical-margin micro-horizontal-margin" href={{ project.github }} target="_blank">{{project.name}}</a>
+            <a class="btn btn-primary small-vertical-margin micro-horizontal-margin" href={{ project.github }} target="_blank" rel="noreferrer">{{project.name}}</a>
           {% endif %}
           {% if project.demo %}
             {% if project.github %}
-              <a class="btn btn-info small-vertical-margin micro-horizontal-margin" href={{ project.demo }} target="_blank">demo</a>
+              <a class="btn btn-info small-vertical-margin micro-horizontal-margin" href={{ project.demo }} target="_blank" rel="noreferrer">demo</a>
             {% else %}
-              <a class="btn btn-info small-vertical-margin micro-horizontal-margin" href={{ project.demo }} target="_blank">{{project.name}}</a>
+              <a class="btn btn-info small-vertical-margin micro-horizontal-margin" href={{ project.demo }} target="_blank" rel="noreferrer">{{project.name}}</a>
             {% endif %}
           {% endif %}
           <div class="small-left-margin"></div>
@@ -197,7 +197,7 @@ title: Ilja Tkachuk
               <p class="vjs-no-js">
                 To view this video please enable JavaScript, and consider upgrading to a
                 web browser that
-                <a href="https://videojs.com/html5-video-support/" target="_blank">
+                <a href="https://videojs.com/html5-video-support/" target="_blank" rel="noreferrer">
                   supports HTML5 video
                 </a>
               </p>
@@ -209,11 +209,11 @@ title: Ilja Tkachuk
             {{ talk.title }}
           </a>
           <br>
-          <a class="btn btn-info margin-bottom" href={{ talk.slides_url }} target="_blank">
+          <a class="btn btn-info margin-bottom" href={{ talk.slides_url }} target="_blank" rel="noreferrer">
             open slides
           </a>
           <br>
-          <a class="btn btn-info margin-bottom" href={{ talk.video_url }} target="_blank">
+          <a class="btn btn-info margin-bottom" href={{ talk.video_url }} target="_blank" rel="noreferrer">
             download video
           </a>
           <h4 class="micro-vertical-margin margin-bottom">
@@ -226,7 +226,7 @@ title: Ilja Tkachuk
     <div class="row">
       <div class="col-xs-12 text-center">
         {% for link in site.data.links %}
-          <a href={{ link.url }} class="btn btn-primary micro-horizontal-margin" target="_blank">
+          <a href={{ link.url }} class="btn btn-primary micro-horizontal-margin" target="_blank" rel="noreferrer">
             <span class="fab {{ link.icon }} fa-2x micro-vertical-margin"></span>
           </a>
         {% endfor %}

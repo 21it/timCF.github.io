@@ -35,7 +35,7 @@ title: Ilja Tkachuk
 
 
 <!-- Link to open the modal -->
-<p><a href="index.html" target="_blank">Back to homepage</a></p>
+<p><a href="index.html" target="_blank" rel="noreferrer">Back to homepage</a></p>
 <p><a href="#pdf_popup" rel="modal:open">Download CV as PDF</a></p>
 
 
@@ -118,7 +118,7 @@ title: Ilja Tkachuk
       {% for project in site.data.projects %}
         <li>
           <strong>
-            <a href={{ project.github }} target="_blank">
+            <a href={{ project.github }} target="_blank" rel="noreferrer">
               {{project.name}}
             </a>
           </strong>
@@ -132,7 +132,7 @@ title: Ilja Tkachuk
           {% if project.demo %}
             <i>
               <strong>
-                (<a href={{ project.demo }} target="_blank">demo</a>)
+                (<a href={{ project.demo }} target="_blank" rel="noreferrer">demo</a>)
               </strong>
             </i>
           {% endif %}
@@ -154,12 +154,12 @@ title: Ilja Tkachuk
       {% for link in site.data.links %}
         <li>
           <strong>{{ link.name }}</strong>:
-          <i><a href="{{ link.url }}" target="_blank">{{ link.url }}</a></i>
+          <i><a href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.url }}</a></i>
         </li>
       {% endfor %}
       <li>
         <strong>Homepage</strong>:
-        <i><a href="https://itkach.uk" target="_blank">https://itkach.uk</a></i>
+        <i><a href="https://itkach.uk" target="_blank" rel="noreferrer">https://itkach.uk</a></i>
       </li>
     </ul>
   </section>
