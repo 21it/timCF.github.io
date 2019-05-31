@@ -64,7 +64,7 @@ title: Ilja Tkachuk
       </p>
     </div>
     <div class="col-md-6 app-block">
-      <img src="/img/lfe-logo.png" class="img-responsive img-center app-summary-img"/>
+      <img src="/img/lfe-logo.png" alt="" class="img-responsive img-center app-summary-img"/>
     </div>
   </div>
 </div>
@@ -226,7 +226,7 @@ title: Ilja Tkachuk
     <div class="row">
       <div class="col-xs-12 text-center">
         {% for link in site.data.links %}
-          <a href={{ link.url }} class="btn btn-primary micro-horizontal-margin" target="_blank" rel="noreferrer">
+          <a href={{ link.url }} class="btn btn-primary micro-horizontal-margin" target="_blank" rel="noreferrer" aria-label="{{ link.name }}">
             <span class="fab {{ link.icon }} fa-2x micro-vertical-margin"></span>
           </a>
         {% endfor %}
