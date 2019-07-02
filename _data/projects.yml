@@ -39,6 +39,16 @@
   description: "Ordering relation protocol"
   github: "https://github.com/coingaming/comparable"
 -
+  name: "ExEnv"
+  technologies: ["elixir"]
+  description: "Elixir terms in system env"
+  github: "https://github.com/coingaming/ex_env"
+-
+  name: "BootEnv"
+  technologies: ["elixir"]
+  description: "Configurator with static schema"
+  github: "https://github.com/coingaming/boot_env"
+-
   name: "Meme"
   technologies: ["elixir"]
   description: "Memoization of function calls"
@@ -78,36 +88,6 @@
   technologies: ["elixir"]
   description: "I am the author of this test task"
   github: "https://coingaming.github.io/elixir-test/"
--
-  name: "Yamlex"
-  technologies: ["elixir"]
-  description: "NIF-based YAML parser"
-  github: "https://github.com/timCF/yamlex"
--
-  name: "Xmlex"
-  technologies: ["elixir"]
-  description: "Wrapper around xmerl"
-  github: "https://github.com/timCF/xmlex"
--
-  name: "Exroul"
-  technologies: ["elixir"]
-  description: "Macro-based roulettes"
-  github: "https://github.com/timCF/exroul"
--
-  name: "Erlng"
-  technologies: ["elixir"]
-  description: "Simple cryptographically strong RNG"
-  github: "https://github.com/timCF/erlng"
--
-  name: "Sqlx"
-  technologies: ["elixir","sql"]
-  description: "Wrapper around emysql"
-  github: "https://github.com/timCF/sqlx"
--
-  name: "Cqlx"
-  technologies: ["elixir","nosql"]
-  description: "Wrapper around cqerl"
-  github: "https://github.com/timCF/cqlx"
 -
   name: "Pmclj"
   technologies: ["clojure"]
