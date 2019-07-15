@@ -6,13 +6,13 @@
   location: "Izhevsk, Russian Federation"
 -
   role:     "Student"
-  company:  "School №34"
+  company:  "School 34"
   project:  ""
   dates:    "1997-2000"
   location: "Izhevsk, Russian Federation"
 -
   role:     "Student"
-  company:  "School №41"
+  company:  "School 41"
   project:  ""
   dates:    "2000-2007"
   location: "Izhevsk, Russian Federation"
@@ -36,7 +36,7 @@
   location: "Chernogolovka, Russian Federation"
 -
   role:     "Student"
-  company:  "Higher School of Economics — National Research University, Applied Mathematics Faculty"
+  company:  "Higher School of Economics - National Research University, Applied Mathematics Faculty"
   project:  ""
   dates:    "2012-2013"
   location: "Moscow, Russian Federation"
