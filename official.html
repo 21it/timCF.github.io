@@ -72,6 +72,20 @@ title: Ilja Tkachuk
     </p>
   </section>
 
+  <section id="biography">
+    <h2>Biography</h2>
+    {% for x in site.data.biography %}
+      <h3>{{ x.role }}</h3>
+      <blockquote>
+        <p>
+          <span class="newthought">{{ x.company }}</span>
+        </p>
+        <p>{{ x.project }}</p>
+        <span>{{ x.dates }}, {{ x.location }}</span>
+      </blockquote>
+    {% endfor %}
+  </section>
+
   <section id="preferences_positive">
     <h2>Things I do like</h2>
 

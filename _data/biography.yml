@@ -1,0 +1,80 @@
+-
+  role:     "Birth"
+  company:  ""
+  project:  ""
+  dates:    "1990"
+  location: "Izhevsk, Russian Federation"
+-
+  role:     "Student"
+  company:  "School №34"
+  project:  ""
+  dates:    "1997-2000"
+  location: "Izhevsk, Russian Federation"
+-
+  role:     "Student"
+  company:  "School №41"
+  project:  ""
+  dates:    "2000-2007"
+  location: "Izhevsk, Russian Federation"
+-
+  role:     "Student"
+  company:  "Lomonosov Moscow State University of Fine Chemical Technologies, Faculty of Chemistry"
+  project:  ""
+  dates:    "2007-2008"
+  location: "Moscow, Russian Federation"
+-
+  role:     "Student"
+  company:  "Lomonosov Moscow State University, Faculty of Fundamental Physical and Chemical Engineering"
+  project:  ""
+  dates:    "2008-2012"
+  location: "Moscow, Russian Federation"
+-
+  role:     "Engineer"
+  company:  "Institute of Problems of Chemical Physics of RAS"
+  project:  "Chemical research and development laboratory."
+  dates:    "2010-2012"
+  location: "Chernogolovka, Russian Federation"
+-
+  role:     "Student"
+  company:  "Higher School of Economics — National Research University, Applied Mathematics Faculty"
+  project:  ""
+  dates:    "2012-2013"
+  location: "Moscow, Russian Federation"
+-
+  role:     "Software Developer"
+  company:  "Closed joint-stock company IVK"
+  project:  "Stack: C++, Lua."
+  dates:    "2013-2014"
+  location: "Moscow, Russian Federation"
+-
+  role:     "Entrepreneur, Founder, Software Developer"
+  company:  "Maverick's Guitars"
+  project:  "Import and retail of high end musical instruments and equipment. Stack: C++, Lua, Python, Erlang, Elixir."
+  dates:    "2009-2015"
+  location: "Moscow, Russian Federation"
+-
+  role:     "Software Developer"
+  company:  "<a href=\"https://www.inbetgames.com/\" target=\"_blank\" rel=\"noreferrer\">Inbet Games</a>"
+  project:  "Stack: Erlang, Elixir."
+  dates:    "2014-2017"
+  location: "Moscow, Russian Federation"
+-
+  role:     "Software Developer"
+  company:  "<a href=\"https://coingaming.io/\" target=\"_blank\" rel=\"noreferrer\">Coingaming Group</a>"
+  project: >
+    The company was going to migrate from the NodeJS runtime to the BEAM VM.
+    I was hired as an expert on Erlang, Elixir and BEAM VM.
+    My responsibilities included:
+      architecting and implementing the <a href="https://hub88.io/" target="_blank" rel="noreferrer">Hub88</a> project,
+      helping the human resources department in hiring Erlang/Elixir developers (interviews, tests, etc.),
+      helping JavaScript developers to switch to Elixir.
+    Stack:
+      Erlang, Elixir.
+  dates:    "2017-2018"
+  location: "Tallinn, Republic of Estonia"
+-
+  role:     "Software Developer"
+  company:  "<a href=\"https://coingaming.io/\" target=\"_blank\" rel=\"noreferrer\">Coingaming Group</a>"
+  project:  "Department of research and development. Architecture and implementation of a new casino platform. Contribution to open source. Stack: Erlang, Elixir."
+  dates:    "since 2018"
+  location: "Tallinn, Republic of Estonia"
