@@ -3,6 +3,11 @@
   description: "Modern solution for online reservations"
   demo: "https://reserfy.net/"
 -
+  name: "Calculus"
+  technologies: ["elixir"]
+  description: "Abstract data types with real encapsulation"
+  github: "https://github.com/timCF/calculus"
+-
   name: "Happeteer"
   technologies: ["haskell"]
   description: "Puppeteer client library (web-scraping oriented)"
@@ -53,11 +58,6 @@
   technologies: ["elixir"]
   description: "Memoization of function calls"
   github: "https://github.com/timCF/meme"
--
-  name: "ExCraft"
-  technologies: ["elixir"]
-  description: "Type-safe constructors for Elixir structures"
-  github: "https://github.com/tim2CF/ex_craft"
 -
   name: "Aspire"
   technologies: ["elixir"]
