@@ -52,69 +52,21 @@ sql:
   name:   "SQL"
   skill:  87
   color:  "#dad8d8"
-nosql:
-  icon:   "font-awesome-icon fas fa-eye"
-  site:   "http://cassandra.apache.org/"
-  name:   "noSQL"
-  skill:  40
-  color:  "#dad8d8"
-scala:
-  icon:   "devicons-icon devicons devicons-scala"
-  site:   "http://www.scala-lang.org/"
-  name:   "Scala"
-  skill:  20
-  color:  "#c22d40"
-clojure:
-  icon:   "devicons-icon devicons devicons-clojure_alt"
-  site:   "https://clojure.org/"
-  name:   "Clojure"
-  skill:  35
-  color:  "#db5855"
-livescript:
-  icon:   "devicons-icon devicons devicons-coffeescript"
-  site:   "http://livescript.net/"
-  name:   "Livescript"
-  skill:  85
-  color:  "#499886"
 bootstrap:
   icon:   "devicons-icon devicons devicons-bootstrap"
   site:   "http://getbootstrap.com/"
   name:   "Twitter Bootstrap"
   skill:  70
   color:  "#7952b3"
-ci:
-  icon:   "devicons-icon devicons devicons-travis"
-  site:   "https://travis-ci.org/"
-  name:   "CI"
-  skill:  60
-  color:  "#dad8d8"
 phantomjs:
   icon:   "font-awesome-icon fas fa-ghost"
   site:   "http://phantomjs.org/"
   name:   "Phantomjs Engine"
   skill:  80
   color:  "#2ecbd6"
-brunch:
-  icon:   "font-awesome-icon fas fa-utensils"
-  site:   "http://brunch.io/"
-  name:   "Brunch builder"
-  skill:  65
-  color:  "#008000"
-reactjs:
-  icon:   "font-awesome-icon fab fa-react"
-  site:   "https://facebook.github.io/react/"
-  name:   "React"
-  skill:  75
-  color:  "#61dafb"
-react-native:
-  icon:   "font-awesome-icon fab fa-react"
-  site:   "https://facebook.github.io/react-native/"
-  name:   "React-Native"
-  skill:  75
-  color:  "#05A5D1"
 jekyll:
   icon:   "font-awesome-icon fas fa-vial"
   site:   "https://jekyllrb.com/"
   name:   "Jekyll"
-  skill:  50
+  skill:  75
   color:  "#9e2812"

@@ -8,6 +8,11 @@
   description: "Abstract data types with real encapsulation"
   github: "https://github.com/timCF/calculus"
 -
+  name: "Category"
+  technologies: ["elixir"]
+  description: "Functors, Monads and Applicatives"
+  github: "https://github.com/timCF/category"
+-
   name: "Happeteer"
   technologies: ["haskell"]
   description: "Puppeteer client library (web-scraping oriented)"
@@ -61,41 +66,16 @@
 -
   name: "Aspire"
   technologies: ["elixir"]
-  description: "100% safe types conversions"
+  description: "Safe types conversions"
   github: "https://github.com/timCF/aspire"
--
-  name: "Constantine"
-  technologies: ["elixir"]
-  description: "Type-safe constants for Elixir"
-  github: "https://github.com/timCF/constantine"
--
-  name: "Boilex"
-  technologies: ["elixir"]
-  description: "Project configuration focused on code safety"
-  github: "https://github.com/tim2CF/boilex"
--
-  name: "ExList"
-  technologies: ["elixir"]
-  description: "Funny (and inefficient) singly linked lists"
-  github: "https://github.com/timCF/ex_list"
--
-  name: "jsfunky"
-  technologies: ["livescript"]
-  description: "Crazy functional stuff for JS"
-  github: "https://github.com/timCF/jsfunky"
 -
   name: "Elixir-Test"
   technologies: ["elixir"]
   description: "I am the author of this test task"
   github: "https://coingaming.github.io/elixir-test/"
 -
-  name: "Pmclj"
-  technologies: ["clojure"]
-  description: "Pipe matching for Clojure"
-  github: "https://github.com/timCF/pmclj"
--
   name: "itkach.uk"
-  technologies: ["bootstrap","jekyll"]
+  technologies: ["jekyll", "bootstrap"]
   description: "This static website"
   github: "https://github.com/timCF/timCF.github.io"
 -
