@@ -49,6 +49,11 @@
   description: "Ordering relation protocol"
   github: "https://github.com/coingaming/comparable"
 -
+  name: "Readable"
+  technologies: ["elixir"]
+  description: "Generalized Read type class"
+  github: "https://github.com/coingaming/readable"
+-
   name: "ExEnv"
   technologies: ["elixir"]
   description: "Elixir terms in system env"
@@ -63,11 +68,6 @@
   technologies: ["elixir"]
   description: "Memoization of function calls"
   github: "https://github.com/timCF/meme"
--
-  name: "Aspire"
-  technologies: ["elixir"]
-  description: "Safe types conversions"
-  github: "https://github.com/timCF/aspire"
 -
   name: "Elixir-Test"
   technologies: ["elixir"]
