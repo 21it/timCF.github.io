@@ -1,8 +1,28 @@
 -
   name: "LndClient"
-  technologies: ["haskell"]
+  technologies: ["bitcoin", "haskell", "nix"]
   description: "Haskell LND client library"
   github: "https://github.com/coingaming/lnd-client"
+-
+  name: "TrialChain"
+  technologies: ["bitcoin", "haskell"]
+  description: "Trivial distributed cryptocurrency"
+  github: "https://github.com/timCF/trial-chain"
+-
+  name: "Stack Templates"
+  technologies: ["nix"]
+  description: "Haskell project bootstrap with Stack, Docker and Nix"
+  github: "https://github.com/tkachuk-labs/stack-templates"
+-
+  name: "LightningTip"
+  technologies: ["bitcoin", "haskell", "nix", "yesod"]
+  description: "Bitcoin tips via Lightning Network (WIP)"
+  github: "https://github.com/tkachuk-labs/lightning-tip"
+-
+  name: "Haskell IDE"
+  technologies: ["nix"]
+  description: "Haskell IDE powered by Vim and Nix"
+  github: "https://github.com/tim2CF/ultimate-haskell-ide"
 -
   name: "Calculus"
   technologies: ["elixir"]

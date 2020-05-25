@@ -2,7 +2,7 @@ haskell:
   icon:   "devicons-icon devicons devicons-haskell"
   site:   "https://www.haskell.org/"
   name:   "Haskell (ML family)"
-  skill:  66
+  skill:  75
   color:  "#5e5086"
 yesod:
   icon:   "font-awesome-icon fab fa-y-combinator"
@@ -10,6 +10,18 @@ yesod:
   name:   "Yesod Web Framework"
   skill:  75
   color:  "#5e5086"
+bitcoin:
+  icon:   "font-awesome-icon fab fa-bitcoin"
+  site:   "https://bitcoin.org/en/"
+  name:   "Bitcoin"
+  skill:  75
+  color:  "#f2a900"
+nix:
+  icon:   "devicons-icon devicons devicons-clojure"
+  site:   "https://nixos.org/nix/"
+  name:   "Nix"
+  skill:  66
+  color:  "#80b6e0"
 beam:
   icon:   "font-awesome-icon fab fa-erlang"
   site:   "https://www.erlang.org/"
