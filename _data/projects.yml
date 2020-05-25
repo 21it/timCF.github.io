@@ -1,17 +1,18 @@
-- name: "Reserfy.net"
-  technologies: ["haskell","yesod"]
-  description: "Modern solution for online reservations"
-  demo: "https://reserfy.net/"
+-
+  name: "LndClient"
+  technologies: ["haskell"]
+  description: "Haskell LND client library"
+  github: "https://github.com/coingaming/lnd-client"
 -
   name: "Calculus"
   technologies: ["elixir"]
   description: "Abstract data types with real encapsulation"
   github: "https://github.com/timCF/calculus"
 -
-  name: "Category"
+  name: "Wonderland"
   technologies: ["elixir"]
-  description: "Functors, Monads and Applicatives"
-  github: "https://github.com/timCF/category"
+  description: "Functional programming foundation"
+  github: "https://github.com/tkachuk-labs/wonderland"
 -
   name: "Happeteer"
   technologies: ["haskell"]

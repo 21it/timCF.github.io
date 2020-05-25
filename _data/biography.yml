@@ -75,6 +75,6 @@
 -
   role:     "Software Developer"
   company:  "<a href=\"https://coingaming.io/\" target=\"_blank\" rel=\"noreferrer\">Coingaming Group</a>"
-  project:  "Department of research and development. Architecture and implementation of a new casino platform. Contribution to open source. Stack: Erlang, Elixir."
+  project:  "Department of research and development. Architecture and implementation of a new casino platform. Contribution to open source. Stack: Erlang, Elixir, Haskell."
   dates:    "since 2018"
   location: "Tallinn, Republic of Estonia"
